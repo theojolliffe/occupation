@@ -8,7 +8,13 @@
 
     $: console.log('slug', slug)
 
-    var domain = "http://localhost:3000"
+    var domain
+
+    if (location.hostname === "localhost" || location.hostname === "127.0.0.1") {
+        domain = "http://localhost:3000"
+    } else {
+        domain = "https://occupation.vercel.app"
+    }
 
     let expanded = null;
     function toggle(code) {
