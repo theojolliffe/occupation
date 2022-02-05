@@ -1,6 +1,7 @@
 <script>
     import Header from '$lib/header/Header.svelte';
     import {page} from '$app/stores'
+    import { dev } from '$app/env';
 
     $: ray = ['E12000008', 'E12000009', 'E12000002']
 
@@ -8,13 +9,14 @@
 
     $: console.log('slug', slug)
 
-    var domain = "https://occupation.vercel.app"
+    var domain;
 
-    // if (location.hostname === "localhost" || location.hostname === "127.0.0.1") {
-    //     domain = "http://localhost:3000"
-    // } else {
-    //     domain = "https://occupation.vercel.app"
-    // }
+    if (dev) {
+        domain = "http://localhost:3000"
+    } else {
+        domain = "https://occupation.vercel.app"
+    }
+
 
     let expanded = null;
     function toggle(code) {
