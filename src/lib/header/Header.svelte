@@ -1,5 +1,5 @@
 <script>
-    import * as someDATA from '../data/industry_fake.json';
+    import * as someDATA from '/src/data/industry_fake.json';
 
     import Select from "./Select.svelte";
     var selected;

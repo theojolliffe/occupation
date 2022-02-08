@@ -9,8 +9,7 @@
     $: console.log('placecode', placecode)
     $: console.log('occcode', occcode)
 
-    import * as someDATA from '/src/lib/data/industry_fake.json';
-    // import * as someDATA from '../occupationbyregion.json';
+    import * as someDATA from '/src/data/industry_fake.json';
 
     $: data = someDATA.default
 
