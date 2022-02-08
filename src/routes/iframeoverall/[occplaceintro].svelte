@@ -45,9 +45,12 @@
  'N92000002': 'Northern Ireland'}
 
     var sum
+    var totsum
     $: if (data) {
         sum = Object.values(data[ind_lu[occcode]]).map(d => d[2021]).reduce((partialSum, a) => partialSum + a, 0)
-        console.log('sum', sum)
+        // totsum = Object.values(data).map(d => Object.values(d).map(d => d[2021])).flat().reduce((partialSum, a) => partialSum + a, 0)
+        totsum = Object.values(data['Total']).map(d => d[2021]).reduce((partialSum, a) => partialSum + a, 0)
+        console.log('data', totsum)
     }
 
 
@@ -62,7 +65,7 @@
             Across England and Wales, {sum} people work in this industry.
         </p>
         <p>
-            This accounts for the 
+            This accounts for about 1 in { Math.round (1 / (sum/totsum) / 10) * 10 } working people, making it the second largest industry, in terms of size of workforce.
         </p>
     </div>
 {/if}
