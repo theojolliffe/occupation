@@ -1,13 +1,22 @@
-<div class="warning">
-  <strong>Warning!</strong> This prototype uses 2011 data in lieu of the latest Census 2021 data. Data are likely to contain inaccuracies.
-</div>
+<nav class="warning">
+  <div class="col-wide middle">
+    <strong>WARNING! This is a prototype. Data is synthetic. It is NOT actual 2021 Census data.</strong>
+  </div>
+</nav>
 
 <style>
+  :global(body) {
+    margin-top: 42px;
+  }
   .warning {
-    display: block;
+    /* position: fixed; */
+    z-index: 100;
+    top: 0;
+    width: 640px;
     color: white;
     background-color: #bb3333;
     margin-bottom: 10px;
-    padding: 2px 4px;
+    padding: 8px 0;
+    font-size: 1em;
   }
 </style>

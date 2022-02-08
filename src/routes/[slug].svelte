@@ -80,6 +80,21 @@
             </div>
         </div>
     {/each}
+
+
+    <div class="frame-cont">
+        <div class='inner-frame'>
+            <iframe src={domain + "/job/" + slug} title="preview"/>
+            <br>
+            <div style='margin-bottom: 50px;'>
+                <button style='background-color: #ff7ac7' on:click={toggle}>Share</button>
+                <button on:click={toggle}>Embed</button>
+            </div>
+        </div>
+    </div>
+
+
+
 {/if}
 </div>
 
@@ -105,7 +120,9 @@
         color: #323132; 
         -webkit-font-smoothing: antialiased;
         -moz-osx-font-smoothing: grayscale;
+        margin: 0 !important;
     }
+
 
     .details__body {
         margin-top: 8px;
@@ -156,7 +173,7 @@
         border-radius: 10px;
         width: 100%;
         height: 100%;
-        background: #44555a;
+        background: #233640;
     }
     .embed-code__success-container {
         position:relative

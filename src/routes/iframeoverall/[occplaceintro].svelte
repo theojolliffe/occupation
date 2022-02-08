@@ -47,7 +47,6 @@
     var sum
     var totsum
     $: if (data) {
-        console.log('data', data)
         sum = Object.values(data[ind_lu[occcode]]).map(d => d[2021]).reduce((partialSum, a) => partialSum + a, 0)
         // totsum = Object.values(data).map(d => Object.values(d).map(d => d[2021])).flat().reduce((partialSum, a) => partialSum + a, 0)
         totsum = Object.values(data['Total']).map(d => d[2021]).reduce((partialSum, a) => partialSum + a, 0)
