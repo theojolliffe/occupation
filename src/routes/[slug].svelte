@@ -2,6 +2,7 @@
     import Header from '$lib/header/Header.svelte';
     import {page} from '$app/stores'
     import { dev } from '$app/env';
+    import pym from 'pym';
 
     $: ray = ['E12000008', 'E12000009', 'E12000002']
 
