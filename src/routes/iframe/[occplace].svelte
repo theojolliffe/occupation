@@ -6,8 +6,6 @@
     $: occplace = $page.params.occplace
     $: placecode = occplace.split("-")[1]
     $: occcode = occplace.split("-")[0]
-    $: console.log('placecode', placecode)
-    $: console.log('occcode', occcode)
 
     import * as someDATA from '/src/data/industry_fake.json';
 
@@ -45,7 +43,6 @@
  'S92000003': 'Scotland',
  'N92000002': 'Northern Ireland'}
 
- $: console.log("json data", data)
 </script>
 
 <div>
@@ -56,10 +53,14 @@
 <LineChart />
 </div>
 <style>
+    @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
     div {
-        font-family: sans-serif;
+        font-family: 'Open Sans';
     }
     .line-cont {
         height: 300px;
+    }
+    :global(html) {
+        height: 500px;
     }
 </style>

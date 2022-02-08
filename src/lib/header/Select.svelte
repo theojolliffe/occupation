@@ -7,10 +7,10 @@
 
 <div id="select">
 	<select bind:value={selected} on:change="{() => window.location.href = selected.split(" ")[0].replace(",", "")}">
-		<option value="" disabled selected>Select an occupation</option>
+		<option value="" disabled selected>Select an industry</option>
 		{#each options as option}
 			<option value={option}>
-				{option}
+				{option.split(";")[0]}
 			</option>
 		{/each}
 	</select>
@@ -18,6 +18,15 @@
 
 
 <style>
+	select {
+		font-size: 24px;
+		font-family: 'Open Sans';
+		width: 100%;
+		border: 0;
+		border-bottom: 3px #e0e0e0 solid;
+		font-weight: 600;
+	}
+
 	#select {
 		text-align: left;
 	}
