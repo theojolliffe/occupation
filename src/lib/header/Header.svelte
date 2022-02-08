@@ -1,11 +1,7 @@
 <script>
-    import * as someDATA from '/Users/theojolliffe/Documents/export-experiment/src/routes/industry_fake.json';
-
     import Select from "./Select.svelte";
     var selected;
-
-
-    $: options = Object.keys(someDATA.default)
+    var options = ['managers', 'administritive', 'sales'];
 
     function loadOcc(code) {
         console.log('code', code)
