@@ -110,7 +110,7 @@
     iframe {
         width: 600px;
         margin: 10px;
-        height: 60px;
+        height: inherit;
         border: none;
     }
     button {
