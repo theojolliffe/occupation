@@ -16,10 +16,12 @@
   "dependencies": {
     "@rollup/plugin-dsv": "^2.0.3",
     "csvtojson": "^2.0.10",
+    "d3-geo": "^3.0.1",
     "d3-quadtree": "^3.0.1",
     "d3-shape": "^3.1.0",
     "layercake": "^6.0.2",
     "svelte-copy-to-clipboard": "^0.2.5",
-    "svelte-preprocess": "^4.10.2"
+    "svelte-preprocess": "^4.10.2",
+    "topojson-client": "^3.1.0"
   }
 }

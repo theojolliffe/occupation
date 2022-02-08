@@ -92,6 +92,16 @@
             </div>
         </div>
     </div>
+    <div class="frame-cont">
+        <div class='inner-frame'>
+            <iframe style='height: 360px' src={domain + "/job2/" + slug} title="preview"/>
+            <br>
+            <div style='margin-bottom: 50px;'>
+                <button style='background-color: #ff7ac7' on:click={toggle}>Share</button>
+                <button on:click={toggle}>Embed</button>
+            </div>
+        </div>
+    </div>
 
 
 

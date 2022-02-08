@@ -1,0 +1,2622 @@
+[
+    {
+        "name": "Rhondda",
+        "myValue": 432.4
+    },
+    {
+        "name": "Clacton",
+        "myValue": 426.4
+    },
+    {
+        "name": "Easington",
+        "myValue": 438.7
+    },
+    {
+        "name": "Merthyr Tydfil and Rhymn",
+        "myValue": 434
+    },
+    {
+        "name": "Belfast West",
+        "myValue": 390.7
+    },
+    {
+        "name": "Blaenau Gwent",
+        "myValue": 398.3
+    },
+    {
+        "name": "Glasgow North East",
+        "myValue": 444.3
+    },
+    {
+        "name": "Aberavon",
+        "myValue": 490.3
+    },
+    {
+        "name": "Glasgow East",
+        "myValue": 445.9
+    },
+    {
+        "name": "Cynon Valley",
+        "myValue": 499.5
+    },
+    {
+        "name": "Belfast North",
+        "myValue": 460.2
+    },
+    {
+        "name": "Liverpool, Walton",
+        "myValue": 454.7
+    },
+    {
+        "name": "Blackpool South",
+        "myValue": 373.1
+    },
+    {
+        "name": "Neath",
+        "myValue": 457.7
+    },
+    {
+        "name": "Blackpool North and Clev",
+        "myValue": 427.2
+    },
+    {
+        "name": "Llanelli",
+        "myValue": 479
+    },
+    {
+        "name": "Barnsley East",
+        "myValue": 453.8
+    },
+    {
+        "name": "Louth and Horncastle",
+        "myValue": 475.6
+    },
+    {
+        "name": "Bolsover",
+        "myValue": 419.8
+    },
+    {
+        "name": "Houghton and Sunderland",
+        "myValue": 470.2
+    },
+    {
+        "name": "Ogmore",
+        "myValue": 442.5
+    },
+    {
+        "name": "Wentworth and Dearne",
+        "myValue": 450.9
+    },
+    {
+        "name": "Islwyn",
+        "myValue": 485.7
+    },
+    {
+        "name": "Knowsley",
+        "myValue": 461.5
+    },
+    {
+        "name": "Hemsworth",
+        "myValue": 442
+    },
+    {
+        "name": "South Shields",
+        "myValue": 454.8
+    },
+    {
+        "name": "Carmarthen East and Dine",
+        "myValue": 540.6
+    },
+    {
+        "name": "Normanton, Pontefract an",
+        "myValue": 431.7
+    },
+    {
+        "name": "Wolverhampton South East",
+        "myValue": 415.4
+    },
+    {
+        "name": "Boston and Skegness",
+        "myValue": 436.8
+    },
+    {
+        "name": "Wansbeck",
+        "myValue": 449.9
+    },
+    {
+        "name": "Gateshead",
+        "myValue": 499.2
+    },
+    {
+        "name": "Ashfield",
+        "myValue": 442
+    },
+    {
+        "name": "Caerphilly",
+        "myValue": 470.1
+    },
+    {
+        "name": "Bishop Auckland",
+        "myValue": 474.3
+    },
+    {
+        "name": "Sunderland Central",
+        "myValue": 463.4
+    },
+    {
+        "name": "Mansfield",
+        "myValue": 423.4
+    },
+    {
+        "name": "Barnsley Central",
+        "myValue": 477
+    },
+    {
+        "name": "Bootle",
+        "myValue": 472
+    },
+    {
+        "name": "Torfaen",
+        "myValue": 469.2
+    },
+    {
+        "name": "Walsall North",
+        "myValue": 421.6
+    },
+    {
+        "name": "Birkenhead",
+        "myValue": 459.1
+    },
+    {
+        "name": "Sedgefield",
+        "myValue": 501.8
+    },
+    {
+        "name": "North Durham",
+        "myValue": 482.2
+    },
+    {
+        "name": "Redcar",
+        "myValue": 473.9
+    },
+    {
+        "name": "Swansea East",
+        "myValue": 462.2
+    },
+    {
+        "name": "Hartlepool",
+        "myValue": 462.1
+    },
+    {
+        "name": "Stoke-on-Trent North",
+        "myValue": 398.5
+    },
+    {
+        "name": "Chesterfield",
+        "myValue": 492.1
+    },
+    {
+        "name": "Nottingham North",
+        "myValue": 381.4
+    },
+    {
+        "name": "Glasgow South West",
+        "myValue": 446
+    },
+    {
+        "name": "Liverpool, West Derby",
+        "myValue": 454.1
+    },
+    {
+        "name": "Washington and Sunderlan",
+        "myValue": 428.9
+    },
+    {
+        "name": "Birmingham, Erdington",
+        "myValue": 455.2
+    },
+    {
+        "name": "Rotherham",
+        "myValue": 399.4
+    },
+    {
+        "name": "Great Yarmouth",
+        "myValue": 425
+    },
+    {
+        "name": "North Norfolk",
+        "myValue": 470.5
+    },
+    {
+        "name": "North West Durham",
+        "myValue": 492.2
+    },
+    {
+        "name": "West Bromwich East",
+        "myValue": 481.1
+    },
+    {
+        "name": "North Thanet",
+        "myValue": 495.3
+    },
+    {
+        "name": "Jarrow",
+        "myValue": 474.9
+    },
+    {
+        "name": "West Bromwich West",
+        "myValue": 428.9
+    },
+    {
+        "name": "Torbay",
+        "myValue": 419.7
+    },
+    {
+        "name": "Burnley",
+        "myValue": 439.9
+    },
+    {
+        "name": "Vale of Clwyd",
+        "myValue": 431.8
+    },
+    {
+        "name": "Sheffield, Brightside an",
+        "myValue": 424.8
+    },
+    {
+        "name": "Stoke-on-Trent South",
+        "myValue": 452.8
+    },
+    {
+        "name": "Garston and Halewood",
+        "myValue": 494.3
+    },
+    {
+        "name": "St Helens South and Whis",
+        "myValue": 459.7
+    },
+    {
+        "name": "South Thanet",
+        "myValue": 460
+    },
+    {
+        "name": "Hastings and Rye",
+        "myValue": 454.9
+    },
+    {
+        "name": "Dudley North",
+        "myValue": 405.3
+    },
+    {
+        "name": "Plymouth, Moor View",
+        "myValue": 448
+    },
+    {
+        "name": "Doncaster North",
+        "myValue": 497.6
+    },
+    {
+        "name": "Barrow and Furness",
+        "myValue": 538.1
+    },
+    {
+        "name": "Wolverhampton North East",
+        "myValue": 407
+    },
+    {
+        "name": "Sheffield, Heeley",
+        "myValue": 449.9
+    },
+    {
+        "name": "St Helens North",
+        "myValue": 469.1
+    },
+    {
+        "name": "Kingston upon Hull West",
+        "myValue": 440.6
+    },
+    {
+        "name": "Ashton-under-Lyne",
+        "myValue": 430.2
+    },
+    {
+        "name": "North Tyneside",
+        "myValue": 443.2
+    },
+    {
+        "name": "Wallasey",
+        "myValue": 473.8
+    },
+    {
+        "name": "Blackley and Broughton",
+        "myValue": 407.3
+    },
+    {
+        "name": "West Tyrone",
+        "myValue": 433
+    },
+    {
+        "name": "Carmarthen West and Sout",
+        "myValue": 429.8
+    },
+    {
+        "name": "Kingston upon Hull East",
+        "myValue": 451.6
+    },
+    {
+        "name": "Don Valley",
+        "myValue": 519.4
+    },
+    {
+        "name": "Blyth Valley",
+        "myValue": 460.9
+    },
+    {
+        "name": "Stoke-on-Trent Central",
+        "myValue": 424.3
+    },
+    {
+        "name": "Sheffield South East",
+        "myValue": 434
+    },
+    {
+        "name": "Isle of Wight",
+        "myValue": 459.5
+    },
+    {
+        "name": "Bassetlaw",
+        "myValue": 469.5
+    },
+    {
+        "name": "Stockton North",
+        "myValue": 465
+    },
+    {
+        "name": "Blaydon",
+        "myValue": 507
+    },
+    {
+        "name": "Warley",
+        "myValue": 408.6
+    },
+    {
+        "name": "Rochdale",
+        "myValue": 440.8
+    },
+    {
+        "name": "Dudley South",
+        "myValue": 441
+    },
+    {
+        "name": "Wigan",
+        "myValue": 457.6
+    },
+    {
+        "name": "Waveney",
+        "myValue": 458.2
+    },
+    {
+        "name": "North East Derbyshire",
+        "myValue": 536.6
+    },
+    {
+        "name": "Middlesbrough",
+        "myValue": 435.5
+    },
+    {
+        "name": "Hyndburn",
+        "myValue": 429
+    },
+    {
+        "name": "Belfast East",
+        "myValue": 480.5
+    },
+    {
+        "name": "Clwyd West",
+        "myValue": 521.4
+    },
+    {
+        "name": "Birmingham, Yardley",
+        "myValue": 462.9
+    },
+    {
+        "name": "East Yorkshire",
+        "myValue": 499.2
+    },
+    {
+        "name": "Birmingham, Hodge Hill",
+        "myValue": 419.6
+    },
+    {
+        "name": "Walsall South",
+        "myValue": 441
+    },
+    {
+        "name": "Foyle",
+        "myValue": 425.5
+    },
+    {
+        "name": "Southport",
+        "myValue": 490.9
+    },
+    {
+        "name": "Scarborough and Whitby",
+        "myValue": 493.6
+    },
+    {
+        "name": "North West Norfolk",
+        "myValue": 446.1
+    },
+    {
+        "name": "Christchurch",
+        "myValue": 524.4
+    },
+    {
+        "name": "Bridgend",
+        "myValue": 529.3
+    },
+    {
+        "name": "Camborne and Redruth",
+        "myValue": 441.3
+    },
+    {
+        "name": "West Dunbartonshire",
+        "myValue": 479.7
+    },
+    {
+        "name": "Amber Valley",
+        "myValue": 485.3
+    },
+    {
+        "name": "Blackburn",
+        "myValue": 430.1
+    },
+    {
+        "name": "Oldham West and Royton",
+        "myValue": 428
+    },
+    {
+        "name": "Heywood and Middleton",
+        "myValue": 485
+    },
+    {
+        "name": "Morecambe and Lunesdale",
+        "myValue": 462.8
+    },
+    {
+        "name": "Sherwood",
+        "myValue": 453.7
+    },
+    {
+        "name": "Bolton South East",
+        "myValue": 408.7
+    },
+    {
+        "name": "Pendle",
+        "myValue": 460.8
+    },
+    {
+        "name": "Birmingham, Northfield",
+        "myValue": 454.9
+    },
+    {
+        "name": "North East Cambridgeshir",
+        "myValue": 467.9
+    },
+    {
+        "name": "Newcastle upon Tyne Nort",
+        "myValue": 479.3
+    },
+    {
+        "name": "Brecon and Radnorshire",
+        "myValue": 422.1
+    },
+    {
+        "name": "St Ives",
+        "myValue": 389.2
+    },
+    {
+        "name": "Halton",
+        "myValue": 452.8
+    },
+    {
+        "name": "Glasgow North West",
+        "myValue": 582.4
+    },
+    {
+        "name": "St Austell and Newquay",
+        "myValue": 460.9
+    },
+    {
+        "name": "Worthing West",
+        "myValue": 499.8
+    },
+    {
+        "name": "Halesowen and Rowley Reg",
+        "myValue": 473.1
+    },
+    {
+        "name": "Totnes",
+        "myValue": 489.6
+    },
+    {
+        "name": "Middlesbrough South and",
+        "myValue": 464.7
+    },
+    {
+        "name": "Workington",
+        "myValue": 512.4
+    },
+    {
+        "name": "Denton and Reddish",
+        "myValue": 426.1
+    },
+    {
+        "name": "Salford and Eccles",
+        "myValue": 459.2
+    },
+    {
+        "name": "Eastbourne",
+        "myValue": 504.8
+    },
+    {
+        "name": "Bolton North East",
+        "myValue": 421.2
+    },
+    {
+        "name": "Bognor Regis and Littleh",
+        "myValue": 427
+    },
+    {
+        "name": "Worsley and Eccles South",
+        "myValue": 474.7
+    },
+    {
+        "name": "Bexhill and Battle",
+        "myValue": 470.1
+    },
+    {
+        "name": "Pontypridd",
+        "myValue": 501.8
+    },
+    {
+        "name": "Aldridge-Brownhills",
+        "myValue": 470.5
+    },
+    {
+        "name": "Airdrie and Shotts",
+        "myValue": 482.3
+    },
+    {
+        "name": "Derby South",
+        "myValue": 507.2
+    },
+    {
+        "name": "Folkestone and Hythe",
+        "myValue": 490.6
+    },
+    {
+        "name": "Dover",
+        "myValue": 538.3
+    },
+    {
+        "name": "Weston-Super-Mare",
+        "myValue": 533.4
+    },
+    {
+        "name": "North Cornwall",
+        "myValue": 496
+    },
+    {
+        "name": "Rother Valley",
+        "myValue": 515
+    },
+    {
+        "name": "Stalybridge and Hyde",
+        "myValue": 471
+    },
+    {
+        "name": "Leigh",
+        "myValue": 486.9
+    },
+    {
+        "name": "Ynys M_n",
+        "myValue": 444.8
+    },
+    {
+        "name": "Berwick-upon-Tweed",
+        "myValue": 503.1
+    },
+    {
+        "name": "Leeds East",
+        "myValue": 432
+    },
+    {
+        "name": "Liverpool, Wavertree",
+        "myValue": 530.5
+    },
+    {
+        "name": "Swansea West",
+        "myValue": 490.4
+    },
+    {
+        "name": "Wythenshawe and Sale Eas",
+        "myValue": 437.2
+    },
+    {
+        "name": "Doncaster Central",
+        "myValue": 436
+    },
+    {
+        "name": "Newport East",
+        "myValue": 475.3
+    },
+    {
+        "name": "Great Grimsby",
+        "myValue": 441.3
+    },
+    {
+        "name": "Leicester East",
+        "myValue": 391.1
+    },
+    {
+        "name": "South Holland and The De",
+        "myValue": 467.9
+    },
+    {
+        "name": "Wakefield",
+        "myValue": 433.7
+    },
+    {
+        "name": "Preseli Pembrokeshire",
+        "myValue": 466.7
+    },
+    {
+        "name": "Wyre Forest",
+        "myValue": 468.2
+    },
+    {
+        "name": "Motherwell and Wishaw",
+        "myValue": 481.6
+    },
+    {
+        "name": "Inverclyde",
+        "myValue": 509.4
+    },
+    {
+        "name": "Cannock Chase",
+        "myValue": 457
+    },
+    {
+        "name": "Makerfield",
+        "myValue": 500
+    },
+    {
+        "name": "Wolverhampton South West",
+        "myValue": 480.5
+    },
+    {
+        "name": "Newport West",
+        "myValue": 487.6
+    },
+    {
+        "name": "Ayr, Carrick and Cumnock",
+        "myValue": 516.5
+    },
+    {
+        "name": "Coatbridge, Chryston and Bellshill",
+        "myValue": 490
+    },
+    {
+        "name": "Bradford South",
+        "myValue": 413.8
+    },
+    {
+        "name": "Fylde",
+        "myValue": 574.5
+    },
+    {
+        "name": "North Warwickshire",
+        "myValue": 498.4
+    },
+    {
+        "name": "Newton Abbot",
+        "myValue": 447.4
+    },
+    {
+        "name": "Rutherglen and Hamilton West",
+        "myValue": 480.8
+    },
+    {
+        "name": "Glenrothes",
+        "myValue": 455.7
+    },
+    {
+        "name": "Copeland",
+        "myValue": 662
+    },
+    {
+        "name": "Newcastle upon Tyne Cent",
+        "myValue": 477.4
+    },
+    {
+        "name": "Preston",
+        "myValue": 399.9
+    },
+    {
+        "name": "Brighton, Kemptown",
+        "myValue": 525.2
+    },
+    {
+        "name": "Cardiff South and Penart",
+        "myValue": 481.5
+    },
+    {
+        "name": "South West Norfolk",
+        "myValue": 477.2
+    },
+    {
+        "name": "Torridge and West Devon",
+        "myValue": 455.3
+    },
+    {
+        "name": "Erewash",
+        "myValue": 504.6
+    },
+    {
+        "name": "Gower",
+        "myValue": 562.5
+    },
+    {
+        "name": "Huddersfield",
+        "myValue": 448.4
+    },
+    {
+        "name": "Rochford and Southend Ea",
+        "myValue": 506.2
+    },
+    {
+        "name": "Oldham East and Saddlewo",
+        "myValue": 491.8
+    },
+    {
+        "name": "Upper Bann",
+        "myValue": 447
+    },
+    {
+        "name": "Ceredigion",
+        "myValue": 435.3
+    },
+    {
+        "name": "Newcastle-under-Lyme",
+        "myValue": 478.5
+    },
+    {
+        "name": "Darlington",
+        "myValue": 464.9
+    },
+    {
+        "name": "Bridgwater and West Some",
+        "myValue": 484.3
+    },
+    {
+        "name": "Aberconwy",
+        "myValue": 496.3
+    },
+    {
+        "name": "Staffordshire Moorlands",
+        "myValue": 506.7
+    },
+    {
+        "name": "Birmingham, Hall Green",
+        "myValue": 503.6
+    },
+    {
+        "name": "Birmingham, Perry Barr",
+        "myValue": 430.3
+    },
+    {
+        "name": "Cardiff West",
+        "myValue": 463.5
+    },
+    {
+        "name": "Bristol South",
+        "myValue": 478.7
+    },
+    {
+        "name": "South East Cornwall",
+        "myValue": 459.2
+    },
+    {
+        "name": "Penistone and Stocksbrid",
+        "myValue": 545.8
+    },
+    {
+        "name": "Scunthorpe",
+        "myValue": 461.4
+    },
+    {
+        "name": "New Forest West",
+        "myValue": 514
+    },
+    {
+        "name": "Monmouth",
+        "myValue": 558.1
+    },
+    {
+        "name": "Tynemouth",
+        "myValue": 524.4
+    },
+    {
+        "name": "Clwyd South",
+        "myValue": 444
+    },
+    {
+        "name": "Dwyfor Meirionnydd",
+        "myValue": 389.2
+    },
+    {
+        "name": "Coventry North East",
+        "myValue": 419.9
+    },
+    {
+        "name": "Bradford East",
+        "myValue": 417.6
+    },
+    {
+        "name": "Cleethorpes",
+        "myValue": 506.3
+    },
+    {
+        "name": "North Ayrshire and Arran",
+        "myValue": 514.7
+    },
+    {
+        "name": "Telford",
+        "myValue": 443.8
+    },
+    {
+        "name": "South Dorset",
+        "myValue": 464.9
+    },
+    {
+        "name": "Brigg and Goole",
+        "myValue": 566.2
+    },
+    {
+        "name": "Paisley and Renfrewshire South",
+        "myValue": 508.2
+    },
+    {
+        "name": "Stourbridge",
+        "myValue": 522.8
+    },
+    {
+        "name": "Castle Point",
+        "myValue": 570.8
+    },
+    {
+        "name": "Havant",
+        "myValue": 489.9
+    },
+    {
+        "name": "Wirral West",
+        "myValue": 578.8
+    },
+    {
+        "name": "Glasgow Central",
+        "myValue": 478.4
+    },
+    {
+        "name": "Sittingbourne and Sheppe",
+        "myValue": 520
+    },
+    {
+        "name": "Carlisle",
+        "myValue": 431.1
+    },
+    {
+        "name": "Lanark and Hamilton East",
+        "myValue": 547.9
+    },
+    {
+        "name": "Bradford West",
+        "myValue": 383
+    },
+    {
+        "name": "Stretford and Urmston",
+        "myValue": 527.8
+    },
+    {
+        "name": "Halifax",
+        "myValue": 459.1
+    },
+    {
+        "name": "Stockport",
+        "myValue": 514.4
+    },
+    {
+        "name": "Norwich North",
+        "myValue": 427.8
+    },
+    {
+        "name": "City of Durham",
+        "myValue": 478.2
+    },
+    {
+        "name": "Vale of Glamorgan",
+        "myValue": 511.4
+    },
+    {
+        "name": "Rossendale and Darwen",
+        "myValue": 451.7
+    },
+    {
+        "name": "Gainsborough",
+        "myValue": 474
+    },
+    {
+        "name": "Leeds West",
+        "myValue": 453
+    },
+    {
+        "name": "Wrexham",
+        "myValue": 480.9
+    },
+    {
+        "name": "Mid Norfolk",
+        "myValue": 488.6
+    },
+    {
+        "name": "Mid Ulster",
+        "myValue": 431.5
+    },
+    {
+        "name": "Montgomeryshire",
+        "myValue": 425.5
+    },
+    {
+        "name": "Bournemouth West",
+        "myValue": 507.1
+    },
+    {
+        "name": "Batley and Spen",
+        "myValue": 462.5
+    },
+    {
+        "name": "Bury South",
+        "myValue": 476.3
+    },
+    {
+        "name": "Wells",
+        "myValue": 482.4
+    },
+    {
+        "name": "Strangford",
+        "myValue": 459.4
+    },
+    {
+        "name": "Gedling",
+        "myValue": 488.9
+    },
+    {
+        "name": "West Dorset",
+        "myValue": 516.1
+    },
+    {
+        "name": "East Londonderry",
+        "myValue": 411.8
+    },
+    {
+        "name": "North Devon",
+        "myValue": 433.8
+    },
+    {
+        "name": "East Antrim",
+        "myValue": 484.2
+    },
+    {
+        "name": "Hazel Grove",
+        "myValue": 527.4
+    },
+    {
+        "name": "Kingston upon Hull North",
+        "myValue": 417.9
+    },
+    {
+        "name": "Nuneaton",
+        "myValue": 486.7
+    },
+    {
+        "name": "Suffolk Coastal",
+        "myValue": 523.4
+    },
+    {
+        "name": "Kirkcaldy and Cowdenbeath",
+        "myValue": 527.3
+    },
+    {
+        "name": "West Lancashire",
+        "myValue": 490.2
+    },
+    {
+        "name": "Forest of Dean",
+        "myValue": 518.2
+    },
+    {
+        "name": "Delyn",
+        "myValue": 522.2
+    },
+    {
+        "name": "Sefton Central",
+        "myValue": 556.3
+    },
+    {
+        "name": "Peterborough",
+        "myValue": 451.7
+    },
+    {
+        "name": "Dagenham and Rainham",
+        "myValue": 519.6
+    },
+    {
+        "name": "Liverpool, Riverside",
+        "myValue": 505.7
+    },
+    {
+        "name": "Glasgow South",
+        "myValue": 547.4
+    },
+    {
+        "name": "Tiverton and Honiton",
+        "myValue": 460.1
+    },
+    {
+        "name": "Ellesmere Port and Nesto",
+        "myValue": 460
+    },
+    {
+        "name": "Dumfries and Galloway",
+        "myValue": 442.9
+    },
+    {
+        "name": "Ludlow",
+        "myValue": 514.9
+    },
+    {
+        "name": "Edmonton",
+        "myValue": 508.5
+    },
+    {
+        "name": "Nottingham East",
+        "myValue": 430.6
+    },
+    {
+        "name": "Leicester West",
+        "myValue": 405.5
+    },
+    {
+        "name": "Norwich South",
+        "myValue": 458.9
+    },
+    {
+        "name": "Bristol East",
+        "myValue": 463.5
+    },
+    {
+        "name": "Newry and Armagh",
+        "myValue": 472.7
+    },
+    {
+        "name": "East Worthing and Shoreh",
+        "myValue": 468.2
+    },
+    {
+        "name": "Lewes",
+        "myValue": 569.6
+    },
+    {
+        "name": "Beverley and Holderness",
+        "myValue": 528.1
+    },
+    {
+        "name": "Coventry North West",
+        "myValue": 493.9
+    },
+    {
+        "name": "South Staffordshire",
+        "myValue": 510.5
+    },
+    {
+        "name": "Central Ayrshire",
+        "myValue": 535.6
+    },
+    {
+        "name": "Derby North",
+        "myValue": 558
+    },
+    {
+        "name": "Bury North",
+        "myValue": 526.9
+    },
+    {
+        "name": "Bolton West",
+        "myValue": 500.8
+    },
+    {
+        "name": "North Antrim",
+        "myValue": 430.4
+    },
+    {
+        "name": "Kilmarnock and Loudoun",
+        "myValue": 537.5
+    },
+    {
+        "name": "Plymouth, Sutton and Dev",
+        "myValue": 458.2
+    },
+    {
+        "name": "Dewsbury",
+        "myValue": 500.3
+    },
+    {
+        "name": "Lancaster and Fleetwood",
+        "myValue": 536.2
+    },
+    {
+        "name": "Hereford and South Heref",
+        "myValue": 423
+    },
+    {
+        "name": "Warrington North",
+        "myValue": 476.6
+    },
+    {
+        "name": "East Devon",
+        "myValue": 500.4
+    },
+    {
+        "name": "West Worcestershire",
+        "myValue": 466.5
+    },
+    {
+        "name": "Birmingham, Selly Oak",
+        "myValue": 507.2
+    },
+    {
+        "name": "Wellingborough",
+        "myValue": 455.9
+    },
+    {
+        "name": "Poole",
+        "myValue": 522
+    },
+    {
+        "name": "South Basildon and East",
+        "myValue": 551
+    },
+    {
+        "name": "North Herefordshire",
+        "myValue": 430.1
+    },
+    {
+        "name": "Birmingham, Ladywood",
+        "myValue": 476.3
+    },
+    {
+        "name": "Lincoln",
+        "myValue": 456.8
+    },
+    {
+        "name": "Hornchurch and Upminster",
+        "myValue": 616.3
+    },
+    {
+        "name": "Sleaford and North Hykeh",
+        "myValue": 509.7
+    },
+    {
+        "name": "North West Leicestershir",
+        "myValue": 486.4
+    },
+    {
+        "name": "Wirral South",
+        "myValue": 548.1
+    },
+    {
+        "name": "Cumbernauld, Kilsyth and Kirkintilloch East",
+        "myValue": 519.4
+    },
+    {
+        "name": "Tottenham",
+        "myValue": 478.4
+    },
+    {
+        "name": "Bournemouth East",
+        "myValue": 502.8
+    },
+    {
+        "name": "Bristol North West",
+        "myValue": 517.5
+    },
+    {
+        "name": "Yeovil",
+        "myValue": 472.2
+    },
+    {
+        "name": "Thirsk and Malton",
+        "myValue": 435
+    },
+    {
+        "name": "Tamworth",
+        "myValue": 460.2
+    },
+    {
+        "name": "Weaver Vale",
+        "myValue": 513.6
+    },
+    {
+        "name": "Chorley",
+        "myValue": 479.2
+    },
+    {
+        "name": "Stone",
+        "myValue": 537.3
+    },
+    {
+        "name": "Eltham",
+        "myValue": 659.1
+    },
+    {
+        "name": "Birmingham, Edgbaston",
+        "myValue": 488.1
+    },
+    {
+        "name": "UK",
+        "myValue": 518
+    },
+    {
+        "name": "Fermanagh and South Tyrone",
+        "myValue": 396.6
+    },
+    {
+        "name": "Keighley",
+        "myValue": 493.4
+    },
+    {
+        "name": "The Wrekin",
+        "myValue": 475.7
+    },
+    {
+        "name": "Harlow",
+        "myValue": 479.1
+    },
+    {
+        "name": "Burton",
+        "myValue": 462.3
+    },
+    {
+        "name": "Broxtowe",
+        "myValue": 550
+    },
+    {
+        "name": "Southend West",
+        "myValue": 561.9
+    },
+    {
+        "name": "Crewe and Nantwich",
+        "myValue": 492.6
+    },
+    {
+        "name": "Newark",
+        "myValue": 463.8
+    },
+    {
+        "name": "Wyre and Preston North",
+        "myValue": 505.7
+    },
+    {
+        "name": "Broadland",
+        "myValue": 526.3
+    },
+    {
+        "name": "Barking",
+        "myValue": 511.7
+    },
+    {
+        "name": "Manchester, Gorton",
+        "myValue": 452.6
+    },
+    {
+        "name": "Northampton North",
+        "myValue": 426.8
+    },
+    {
+        "name": "Harwich and North Essex",
+        "myValue": 558
+    },
+    {
+        "name": "Meriden",
+        "myValue": 583.9
+    },
+    {
+        "name": "North Down",
+        "myValue": 463.2
+    },
+    {
+        "name": "Truro and Falmouth",
+        "myValue": 462.1
+    },
+    {
+        "name": "North Shropshire",
+        "myValue": 479.1
+    },
+    {
+        "name": "Calder Valley",
+        "myValue": 528.1
+    },
+    {
+        "name": "Leeds Central",
+        "myValue": 425.5
+    },
+    {
+        "name": "Gravesham",
+        "myValue": 536.6
+    },
+    {
+        "name": "Gosport",
+        "myValue": 485.8
+    },
+    {
+        "name": "South Down",
+        "myValue": 449.7
+    },
+    {
+        "name": "South Ribble",
+        "myValue": 517.5
+    },
+    {
+        "name": "Penrith and The Border",
+        "myValue": 443.9
+    },
+    {
+        "name": "Ipswich",
+        "myValue": 473.9
+    },
+    {
+        "name": "Newcastle upon Tyne East",
+        "myValue": 503.8
+    },
+    {
+        "name": "Southampton, Itchen",
+        "myValue": 461.5
+    },
+    {
+        "name": "Taunton Deane",
+        "myValue": 501.6
+    },
+    {
+        "name": "High Peak",
+        "myValue": 508.5
+    },
+    {
+        "name": "Manchester Central",
+        "myValue": 442.6
+    },
+    {
+        "name": "Bedford",
+        "myValue": 504.5
+    },
+    {
+        "name": "Caithness, Sutherland and Easter Ross",
+        "myValue": 461.3
+    },
+    {
+        "name": "Na h-Eileanan an Iar",
+        "myValue": 461.8
+    },
+    {
+        "name": "Gloucester",
+        "myValue": 468.8
+    },
+    {
+        "name": "Redditch",
+        "myValue": 453
+    },
+    {
+        "name": "Colne Valley",
+        "myValue": 493.9
+    },
+    {
+        "name": "Basildon and Billericay",
+        "myValue": 535.3
+    },
+    {
+        "name": "Grantham and Stamford",
+        "myValue": 484.1
+    },
+    {
+        "name": "Stafford",
+        "myValue": 538.8
+    },
+    {
+        "name": "Central Devon",
+        "myValue": 455.1
+    },
+    {
+        "name": "Alyn and Deeside",
+        "myValue": 494.7
+    },
+    {
+        "name": "Morley and Outwood",
+        "myValue": 532.1
+    },
+    {
+        "name": "Paisley and Renfrewshire North",
+        "myValue": 588.6
+    },
+    {
+        "name": "Eddisbury",
+        "myValue": 574.4
+    },
+    {
+        "name": "Derbyshire Dales",
+        "myValue": 505.9
+    },
+    {
+        "name": "Dundee West",
+        "myValue": 490.1
+    },
+    {
+        "name": "Gillingham and Rainham",
+        "myValue": 529.2
+    },
+    {
+        "name": "Mid Worcestershire",
+        "myValue": 488.9
+    },
+    {
+        "name": "Mid Derbyshire",
+        "myValue": 568.9
+    },
+    {
+        "name": "Bosworth",
+        "myValue": 479.2
+    },
+    {
+        "name": "Lichfield",
+        "myValue": 588.7
+    },
+    {
+        "name": "Elmet and Rothwell",
+        "myValue": 555.4
+    },
+    {
+        "name": "Ealing, Southall",
+        "myValue": 518.3
+    },
+    {
+        "name": "Hackney South and Shored",
+        "myValue": 574.9
+    },
+    {
+        "name": "Islington North",
+        "myValue": 617
+    },
+    {
+        "name": "Lewisham East",
+        "myValue": 604.6
+    },
+    {
+        "name": "Enfield North",
+        "myValue": 568.2
+    },
+    {
+        "name": "Coventry South",
+        "myValue": 523.4
+    },
+    {
+        "name": "Solihull",
+        "myValue": 613.5
+    },
+    {
+        "name": "Portsmouth North",
+        "myValue": 474.9
+    },
+    {
+        "name": "Lagan Valley",
+        "myValue": 478.3
+    },
+    {
+        "name": "Shrewsbury and Atcham",
+        "myValue": 480
+    },
+    {
+        "name": "South Derbyshire",
+        "myValue": 508.2
+    },
+    {
+        "name": "Falkirk",
+        "myValue": 493.8
+    },
+    {
+        "name": "Hexham",
+        "myValue": 582.6
+    },
+    {
+        "name": "Congleton",
+        "myValue": 499.6
+    },
+    {
+        "name": "Leicester South",
+        "myValue": 431.3
+    },
+    {
+        "name": "Ilford North",
+        "myValue": 614
+    },
+    {
+        "name": "Luton North",
+        "myValue": 467.4
+    },
+    {
+        "name": "Chingford and Woodford G",
+        "myValue": 707.6
+    },
+    {
+        "name": "Bexleyheath and Crayford",
+        "myValue": 626
+    },
+    {
+        "name": "Corby",
+        "myValue": 490.4
+    },
+    {
+        "name": "Rochester and Strood",
+        "myValue": 583.4
+    },
+    {
+        "name": "South West Wiltshire",
+        "myValue": 479.4
+    },
+    {
+        "name": "Westmorland and Lonsdale",
+        "myValue": 475.8
+    },
+    {
+        "name": "Linlithgow and East Falkirk",
+        "myValue": 520.4
+    },
+    {
+        "name": "Dumfriesshire, Clydesdale and Tweeddale",
+        "myValue": 500.8
+    },
+    {
+        "name": "Westminster North",
+        "myValue": 711.6
+    },
+    {
+        "name": "Northampton South",
+        "myValue": 490.6
+    },
+    {
+        "name": "Leeds North East",
+        "myValue": 535.7
+    },
+    {
+        "name": "Chatham and Aylesford",
+        "myValue": 517.5
+    },
+    {
+        "name": "Somerton and Frome",
+        "myValue": 504.1
+    },
+    {
+        "name": "Stockton South",
+        "myValue": 535.2
+    },
+    {
+        "name": "Argyll and Bute",
+        "myValue": 475.2
+    },
+    {
+        "name": "South Norfolk",
+        "myValue": 507.2
+    },
+    {
+        "name": "Brent Central",
+        "myValue": 500
+    },
+    {
+        "name": "Harrow East",
+        "myValue": 580.7
+    },
+    {
+        "name": "Bethnal Green and Bow",
+        "myValue": 600.3
+    },
+    {
+        "name": "Rugby",
+        "myValue": 528
+    },
+    {
+        "name": "Kettering",
+        "myValue": 531.3
+    },
+    {
+        "name": "Chichester",
+        "myValue": 503.9
+    },
+    {
+        "name": "Worcester",
+        "myValue": 506.3
+    },
+    {
+        "name": "City of Chester",
+        "myValue": 537
+    },
+    {
+        "name": "South Suffolk",
+        "myValue": 517
+    },
+    {
+        "name": "South West Devon",
+        "myValue": 545.3
+    },
+    {
+        "name": "East Kilbride, Strathaven and Lesmahagow",
+        "myValue": 523.9
+    },
+    {
+        "name": "Feltham and Heston",
+        "myValue": 518
+    },
+    {
+        "name": "Holborn and St Pancras",
+        "myValue": 691.4
+    },
+    {
+        "name": "New Forest East",
+        "myValue": 558
+    },
+    {
+        "name": "Macclesfield",
+        "myValue": 562.4
+    },
+    {
+        "name": "South Antrim",
+        "myValue": 483.8
+    },
+    {
+        "name": "Bromsgrove",
+        "myValue": 575.2
+    },
+    {
+        "name": "Romford",
+        "myValue": 651.6
+    },
+    {
+        "name": "Islington South and Fins",
+        "myValue": 719.5
+    },
+    {
+        "name": "Nottingham South",
+        "myValue": 453
+    },
+    {
+        "name": "Hove",
+        "myValue": 502.3
+    },
+    {
+        "name": "Ashford",
+        "myValue": 493.8
+    },
+    {
+        "name": "Arfon",
+        "myValue": 479.2
+    },
+    {
+        "name": "Faversham and Mid Kent",
+        "myValue": 549.6
+    },
+    {
+        "name": "Central Suffolk and Nort",
+        "myValue": 544.4
+    },
+    {
+        "name": "Haltemprice and Howden",
+        "myValue": 617.6
+    },
+    {
+        "name": "Canterbury",
+        "myValue": 576.9
+    },
+    {
+        "name": "Belfast South",
+        "myValue": 523.5
+    },
+    {
+        "name": "Stratford-on-Avon",
+        "myValue": 535.7
+    },
+    {
+        "name": "Shipley",
+        "myValue": 521.9
+    },
+    {
+        "name": "Croydon Central",
+        "myValue": 569.1
+    },
+    {
+        "name": "Southampton, Test",
+        "myValue": 505
+    },
+    {
+        "name": "Stevenage",
+        "myValue": 539.6
+    },
+    {
+        "name": "Cardiff North",
+        "myValue": 557.4
+    },
+    {
+        "name": "Salisbury",
+        "myValue": 521.9
+    },
+    {
+        "name": "Stroud",
+        "myValue": 514.8
+    },
+    {
+        "name": "Midlothian",
+        "myValue": 475.5
+    },
+    {
+        "name": "Ribble Valley",
+        "myValue": 496.9
+    },
+    {
+        "name": "West Ham",
+        "myValue": 500.6
+    },
+    {
+        "name": "Walthamstow",
+        "myValue": 526.7
+    },
+    {
+        "name": "Croydon North",
+        "myValue": 534.2
+    },
+    {
+        "name": "Luton South",
+        "myValue": 496.7
+    },
+    {
+        "name": "Glasgow North",
+        "myValue": 539.5
+    },
+    {
+        "name": "Portsmouth South",
+        "myValue": 497.5
+    },
+    {
+        "name": "Thurrock",
+        "myValue": 554
+    },
+    {
+        "name": "Harborough",
+        "myValue": 489.6
+    },
+    {
+        "name": "Old Bexley and Sidcup",
+        "myValue": 666.7
+    },
+    {
+        "name": "Dundee East",
+        "myValue": 463.9
+    },
+    {
+        "name": "Witham",
+        "myValue": 555.8
+    },
+    {
+        "name": "Maldon",
+        "myValue": 585.4
+    },
+    {
+        "name": "Rayleigh and Wickford",
+        "myValue": 606.2
+    },
+    {
+        "name": "Brent North",
+        "myValue": 558.9
+    },
+    {
+        "name": "East Ham",
+        "myValue": 537.4
+    },
+    {
+        "name": "Ilford South",
+        "myValue": 598.8
+    },
+    {
+        "name": "Ealing North",
+        "myValue": 543.4
+    },
+    {
+        "name": "Lewisham West and Penge",
+        "myValue": 668.8
+    },
+    {
+        "name": "South Swindon",
+        "myValue": 524.2
+    },
+    {
+        "name": "Exeter",
+        "myValue": 434
+    },
+    {
+        "name": "Epping Forest",
+        "myValue": 670.8
+    },
+    {
+        "name": "Tatton",
+        "myValue": 601.5
+    },
+    {
+        "name": "Hayes and Harlington",
+        "myValue": 511.1
+    },
+    {
+        "name": "Enfield, Southgate",
+        "myValue": 586.2
+    },
+    {
+        "name": "West Suffolk",
+        "myValue": 427.5
+    },
+    {
+        "name": "Broxbourne",
+        "myValue": 603.4
+    },
+    {
+        "name": "Tewkesbury",
+        "myValue": 545.2
+    },
+    {
+        "name": "North Dorset",
+        "myValue": 482.1
+    },
+    {
+        "name": "Livingston",
+        "myValue": 503.2
+    },
+    {
+        "name": "Skipton and Ripon",
+        "myValue": 468.1
+    },
+    {
+        "name": "Mid Dorset and North Poo",
+        "myValue": 497.8
+    },
+    {
+        "name": "North East Somerset",
+        "myValue": 495.5
+    },
+    {
+        "name": "Selby and Ainsty",
+        "myValue": 529.3
+    },
+    {
+        "name": "Mitcham and Morden",
+        "myValue": 532.5
+    },
+    {
+        "name": "Erith and Thamesmead",
+        "myValue": 523.1
+    },
+    {
+        "name": "Hemel Hempstead",
+        "myValue": 552.9
+    },
+    {
+        "name": "Maidstone and The Weald",
+        "myValue": 511.2
+    },
+    {
+        "name": "Dartford",
+        "myValue": 573.9
+    },
+    {
+        "name": "Cheadle",
+        "myValue": 564.6
+    },
+    {
+        "name": "Braintree",
+        "myValue": 573.9
+    },
+    {
+        "name": "Kingswood",
+        "myValue": 524.8
+    },
+    {
+        "name": "Bromley and Chislehurst",
+        "myValue": 746.5
+    },
+    {
+        "name": "Charnwood",
+        "myValue": 497.1
+    },
+    {
+        "name": "Sutton Coldfield",
+        "myValue": 637.7
+    },
+    {
+        "name": "Bury St Edmunds",
+        "myValue": 496.4
+    },
+    {
+        "name": "Chippenham",
+        "myValue": 534.6
+    },
+    {
+        "name": "Banff and Buchan",
+        "myValue": 488.9
+    },
+    {
+        "name": "Angus",
+        "myValue": 448.5
+    },
+    {
+        "name": "Camberwell and Peckham",
+        "myValue": 571.8
+    },
+    {
+        "name": "Crawley",
+        "myValue": 550.4
+    },
+    {
+        "name": "Loughborough",
+        "myValue": 538.4
+    },
+    {
+        "name": "Berwickshire, Roxburgh and Selkirk",
+        "myValue": 470.4
+    },
+    {
+        "name": "Pudsey",
+        "myValue": 545.9
+    },
+    {
+        "name": "Dunfermline and West Fife",
+        "myValue": 552.5
+    },
+    {
+        "name": "Hackney North and Stoke",
+        "myValue": 647.1
+    },
+    {
+        "name": "Carshalton and Wallingto",
+        "myValue": 575
+    },
+    {
+        "name": "The Cotswolds",
+        "myValue": 506.9
+    },
+    {
+        "name": "Richmond (Yorks)",
+        "myValue": 479.1
+    },
+    {
+        "name": "Daventry",
+        "myValue": 551.6
+    },
+    {
+        "name": "Leyton and Wanstead",
+        "myValue": 550
+    },
+    {
+        "name": "Slough",
+        "myValue": 530.9
+    },
+    {
+        "name": "North Swindon",
+        "myValue": 489
+    },
+    {
+        "name": "South West Bedfordshire",
+        "myValue": 506.7
+    },
+    {
+        "name": "Arundel and South Downs",
+        "myValue": 587.6
+    },
+    {
+        "name": "North Somerset",
+        "myValue": 585.7
+    },
+    {
+        "name": "Chipping Barnet",
+        "myValue": 674.9
+    },
+    {
+        "name": "Manchester, Withington",
+        "myValue": 574.3
+    },
+    {
+        "name": "Spelthorne",
+        "myValue": 655.5
+    },
+    {
+        "name": "Colchester",
+        "myValue": 509.9
+    },
+    {
+        "name": "York Central",
+        "myValue": 461.1
+    },
+    {
+        "name": "North West Cambridgeshir",
+        "myValue": 524.2
+    },
+    {
+        "name": "Orpington",
+        "myValue": 630
+    },
+    {
+        "name": "Wealden",
+        "myValue": 609.5
+    },
+    {
+        "name": "York Outer",
+        "myValue": 499.6
+    },
+    {
+        "name": "East Lothian",
+        "myValue": 538.8
+    },
+    {
+        "name": "Aberdeen North",
+        "myValue": 538.3
+    },
+    {
+        "name": "Brentwood and Ongar",
+        "myValue": 655.3
+    },
+    {
+        "name": "South Leicestershire",
+        "myValue": 539.9
+    },
+    {
+        "name": "Ochil and South Perthshire",
+        "myValue": 462.5
+    },
+    {
+        "name": "Harrogate and Knaresboro",
+        "myValue": 488.4
+    },
+    {
+        "name": "Fareham",
+        "myValue": 554.1
+    },
+    {
+        "name": "Thornbury and Yate",
+        "myValue": 497.2
+    },
+    {
+        "name": "Poplar and Limehouse",
+        "myValue": 711.8
+    },
+    {
+        "name": "Greenwich and Woolwich",
+        "myValue": 586.7
+    },
+    {
+        "name": "Reading West",
+        "myValue": 602.8
+    },
+    {
+        "name": "Warwick and Leamington",
+        "myValue": 562.4
+    },
+    {
+        "name": "North East Hertfordshire",
+        "myValue": 626.4
+    },
+    {
+        "name": "Warrington South",
+        "myValue": 575.5
+    },
+    {
+        "name": "Hendon",
+        "myValue": 536.6
+    },
+    {
+        "name": "Lewisham, Deptford",
+        "myValue": 591.8
+    },
+    {
+        "name": "Eastleigh",
+        "myValue": 535.5
+    },
+    {
+        "name": "Rutland and Melton",
+        "myValue": 502.2
+    },
+    {
+        "name": "Ross, Skye and Lochaber",
+        "myValue": 521.8
+    },
+    {
+        "name": "Harrow West",
+        "myValue": 590.9
+    },
+    {
+        "name": "Ruislip, Northwood and P",
+        "myValue": 672.5
+    },
+    {
+        "name": "Edinburgh East",
+        "myValue": 527
+    },
+    {
+        "name": "Hertsmere",
+        "myValue": 515.8
+    },
+    {
+        "name": "Cheltenham",
+        "myValue": 531.2
+    },
+    {
+        "name": "Meon Valley",
+        "myValue": 622.5
+    },
+    {
+        "name": "Huntingdon",
+        "myValue": 552.8
+    },
+    {
+        "name": "Kenilworth and Southam",
+        "myValue": 577.7
+    },
+    {
+        "name": "Croydon South",
+        "myValue": 663.2
+    },
+    {
+        "name": "Cardiff Central",
+        "myValue": 482
+    },
+    {
+        "name": "Bath",
+        "myValue": 527.8
+    },
+    {
+        "name": "North West Hampshire",
+        "myValue": 574.3
+    },
+    {
+        "name": "Hammersmith",
+        "myValue": 670.8
+    },
+    {
+        "name": "Sheffield Central",
+        "myValue": 486.1
+    },
+    {
+        "name": "Milton Keynes South",
+        "myValue": 562
+    },
+    {
+        "name": "Filton and Bradley Stoke",
+        "myValue": 600.4
+    },
+    {
+        "name": "Sevenoaks",
+        "myValue": 628.2
+    },
+    {
+        "name": "Tonbridge and Malling",
+        "myValue": 593.3
+    },
+    {
+        "name": "Stirling",
+        "myValue": 571
+    },
+    {
+        "name": "Rushcliffe",
+        "myValue": 596.3
+    },
+    {
+        "name": "Uxbridge and South Ruisl",
+        "myValue": 593.7
+    },
+    {
+        "name": "Watford",
+        "myValue": 610.4
+    },
+    {
+        "name": "Sutton and Cheam",
+        "myValue": 586.4
+    },
+    {
+        "name": "Welwyn Hatfield",
+        "myValue": 589.3
+    },
+    {
+        "name": "North East Fife",
+        "myValue": 522.6
+    },
+    {
+        "name": "Perth and North Perthshire",
+        "myValue": 503.2
+    },
+    {
+        "name": "North East Bedfordshire",
+        "myValue": 589.3
+    },
+    {
+        "name": "Vauxhall",
+        "myValue": 574.9
+    },
+    {
+        "name": "East Surrey",
+        "myValue": 610
+    },
+    {
+        "name": "North Wiltshire",
+        "myValue": 541.5
+    },
+    {
+        "name": "Altrincham and Sale West",
+        "myValue": 672.2
+    },
+    {
+        "name": "Chelmsford",
+        "myValue": 561.1
+    },
+    {
+        "name": "Moray",
+        "myValue": 434.3
+    },
+    {
+        "name": "Finchley and Golders Gre",
+        "myValue": 651.6
+    },
+    {
+        "name": "Banbury",
+        "myValue": 537.4
+    },
+    {
+        "name": "South East Cambridgeshir",
+        "myValue": 571.8
+    },
+    {
+        "name": "Tunbridge Wells",
+        "myValue": 647.6
+    },
+    {
+        "name": "Dulwich and West Norwood",
+        "myValue": 705.6
+    },
+    {
+        "name": "Romsey and Southampton N",
+        "myValue": 509.1
+    },
+    {
+        "name": "Leeds North West",
+        "myValue": 531.1
+    },
+    {
+        "name": "Sheffield, Hallam",
+        "myValue": 624.6
+    },
+    {
+        "name": "Inverness, Nairn, Badenoch and Strathspey",
+        "myValue": 489.9
+    },
+    {
+        "name": "Bermondsey and Old South",
+        "myValue": 641.9
+    },
+    {
+        "name": "Brighton, Pavilion",
+        "myValue": 564.8
+    },
+    {
+        "name": "Aylesbury",
+        "myValue": 512.8
+    },
+    {
+        "name": "East Hampshire",
+        "myValue": 550.9
+    },
+    {
+        "name": "Witney",
+        "myValue": 575
+    },
+    {
+        "name": "Hampstead and Kilburn",
+        "myValue": 711.2
+    },
+    {
+        "name": "Hornsey and Wood Green",
+        "myValue": 686.5
+    },
+    {
+        "name": "Milton Keynes North",
+        "myValue": 498.3
+    },
+    {
+        "name": "Saffron Walden",
+        "myValue": 613.1
+    },
+    {
+        "name": "Streatham",
+        "myValue": 659.6
+    },
+    {
+        "name": "Kingston and Surbiton",
+        "myValue": 670.2
+    },
+    {
+        "name": "Ealing Central and Acton",
+        "myValue": 674.2
+    },
+    {
+        "name": "Brentford and Isleworth",
+        "myValue": 604.8
+    },
+    {
+        "name": "Basingstoke",
+        "myValue": 622
+    },
+    {
+        "name": "Reigate",
+        "myValue": 724.7
+    },
+    {
+        "name": "Mole Valley",
+        "myValue": 687.9
+    },
+    {
+        "name": "Devizes",
+        "myValue": 480.3
+    },
+    {
+        "name": "Wantage",
+        "myValue": 590.4
+    },
+    {
+        "name": "East Renfrewshire",
+        "myValue": 652.5
+    },
+    {
+        "name": "Wycombe",
+        "myValue": 576.8
+    },
+    {
+        "name": "Aldershot",
+        "myValue": 540.3
+    },
+    {
+        "name": "Beckenham",
+        "myValue": 759.5
+    },
+    {
+        "name": "Beaconsfield",
+        "myValue": 659.1
+    },
+    {
+        "name": "South West Hertfordshire",
+        "myValue": 658.2
+    },
+    {
+        "name": "Winchester",
+        "myValue": 584.3
+    },
+    {
+        "name": "Mid Bedfordshire",
+        "myValue": 610.8
+    },
+    {
+        "name": "Mid Sussex",
+        "myValue": 580.8
+    },
+    {
+        "name": "East Dunbartonshire",
+        "myValue": 595.5
+    },
+    {
+        "name": "Edinburgh South West",
+        "myValue": 535.4
+    },
+    {
+        "name": "Epsom and Ewell",
+        "myValue": 636.1
+    },
+    {
+        "name": "Newbury",
+        "myValue": 568.5
+    },
+    {
+        "name": "Edinburgh West",
+        "myValue": 532.6
+    },
+    {
+        "name": "Buckingham",
+        "myValue": 646.2
+    },
+    {
+        "name": "Orkney and Shetland",
+        "myValue": 525
+    },
+    {
+        "name": "Kensington",
+        "myValue": 848.2
+    },
+    {
+        "name": "Runnymede and Weybridge",
+        "myValue": 585
+    },
+    {
+        "name": "Henley",
+        "myValue": 664.6
+    },
+    {
+        "name": "Horsham",
+        "myValue": 611.6
+    },
+    {
+        "name": "Hertford and Stortford",
+        "myValue": 575
+    },
+    {
+        "name": "Oxford East",
+        "myValue": 546.5
+    },
+    {
+        "name": "St Albans",
+        "myValue": 670.7
+    },
+    {
+        "name": "Surrey Heath",
+        "myValue": 625
+    },
+    {
+        "name": "South Cambridgeshire",
+        "myValue": 624.5
+    },
+    {
+        "name": "South West Surrey",
+        "myValue": 727.9
+    },
+    {
+        "name": "Cities of London and Wes",
+        "myValue": 786.3
+    },
+    {
+        "name": "Bracknell",
+        "myValue": 597.1
+    },
+    {
+        "name": "Woking",
+        "myValue": 624.1
+    },
+    {
+        "name": "Tooting",
+        "myValue": 688.7
+    },
+    {
+        "name": "Cambridge",
+        "myValue": 569.4
+    },
+    {
+        "name": "Chesham and Amersham",
+        "myValue": 690.3
+    },
+    {
+        "name": "South Northamptonshire",
+        "myValue": 569.1
+    },
+    {
+        "name": "Oxford West and Abingdon",
+        "myValue": 597.6
+    },
+    {
+        "name": "Maidenhead",
+        "myValue": 665.4
+    },
+    {
+        "name": "Edinburgh North and Leith",
+        "myValue": 565.3
+    },
+    {
+        "name": "Hitchin and Harpenden",
+        "myValue": 726.8
+    },
+    {
+        "name": "Reading East",
+        "myValue": 556.5
+    },
+    {
+        "name": "Putney",
+        "myValue": 745.6
+    },
+    {
+        "name": "Bristol West",
+        "myValue": 562.6
+    },
+    {
+        "name": "Aberdeen South",
+        "myValue": 584.1
+    },
+    {
+        "name": "Esher and Walton",
+        "myValue": 724.8
+    },
+    {
+        "name": "Guildford",
+        "myValue": 619.1
+    },
+    {
+        "name": "Chelsea and Fulham",
+        "myValue": 670.8
+    },
+    {
+        "name": "Edinburgh South",
+        "myValue": 643.7
+    },
+    {
+        "name": "Twickenham",
+        "myValue": 726.7
+    },
+    {
+        "name": "Windsor",
+        "myValue": 660.7
+    },
+    {
+        "name": "Wimbledon",
+        "myValue": 766.6
+    },
+    {
+        "name": "Wokingham",
+        "myValue": 637.6
+    },
+    {
+        "name": "North East Hampshire",
+        "myValue": 672.9
+    },
+    {
+        "name": "Gordon",
+        "myValue": 615.8
+    },
+    {
+        "name": "Battersea",
+        "myValue": 704.7
+    },
+    {
+        "name": "Richmond Park",
+        "myValue": 834.3
+    },
+    {
+        "name": "West Aberdeenshire and Kincardine",
+        "myValue": 638.3
+    },
+    {
+        "name": "Northern Ireland",
+        "myValue": 457.2
+    },
+    {
+        "name": "Wales",
+        "myValue": 479.4
+    },
+    {
+        "name": "Scotland",
+        "myValue": 518.2
+    },
+    {
+        "name": "England",
+        "myValue": 523.6
+    }
+]
