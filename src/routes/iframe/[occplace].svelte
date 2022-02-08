@@ -9,10 +9,9 @@
     $: console.log('placecode', placecode)
     $: console.log('occcode', occcode)
 
-    import * as someDATA from '../industry_fake.json';
-    // import * as someDATA from '../occupationbyregion.json';
+    // import * as someDATA from '../industry_fake.json';
 
-    $: data = someDATA.default
+    // $: data = someDATA.default
 
     var ind_lu = {'Agriculture': 'Agriculture, forestry and fishing',
  'Mining': 'Mining and quarrying',
@@ -46,14 +45,15 @@
  'S92000003': 'Scotland',
  'N92000002': 'Northern Ireland'}
 
- $: console.log("json data", data)
+//  $: console.log("json data", data)
 </script>
-
+<!-- 
 <div>
     In the {reg_lu[placecode]} {data[ind_lu[occcode]][placecode][2021]} people work as {occcode}. This is {Math.round(100*(data[ind_lu[occcode]][placecode][2021]/data["Total"][placecode][2021]))}% of the regional workforce.
-</div>
+</div> -->
 
 <div class="line-cont">
+    test
 <!-- <LineChart /> -->
 </div>
 <style>
