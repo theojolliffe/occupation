@@ -1,7 +1,7 @@
 <script>
     import {page} from '$app/stores'
 
-    import LineChart from '/src/charts/layercake-MultiLine/src/routes/index.svelte';
+    import LineChart from '/src/charts/components/index.svelte';
 
     $: occplace = $page.params.occplace
     $: placecode = occplace.split("-")[1]
