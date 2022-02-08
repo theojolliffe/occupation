@@ -5,7 +5,7 @@
     import {page} from '$app/stores'
     import { dev } from '$app/env';
 
-    $: ray = ['E12000008', 'E12000009', 'E12000002']
+    $: ray = ['Overall', 'E12000008', 'E12000009', 'E12000002']
 
     $: slug = $page.params.slug
 
@@ -44,10 +44,13 @@
 <Header />
 {#if slug}
     {#each ray as code}
-
         <div class="frame-cont">
             <div class='inner-frame'>
-                <iframe src={domain + "/iframe/" + slug + "-" + code} title="preview"/>
+                {#if (code=='Overall')}
+                    <iframe src={domain + "/iframeoverall/" + slug + "-" + code} title="preview"/>
+                {:else}
+                    <iframe src={domain + "/iframe/" + slug + "-" + code} title="preview"/>
+                {/if}
                 <br>
                 <button on:click={toggle(code)}>Embed</button>
 
@@ -67,7 +70,6 @@
                 {/if}
             </div>
         </div>
-
     {/each}
 {/if}
 </div>
@@ -91,7 +93,7 @@
         font-size: 14px;
         font-weight: 400;
         line-height: 24px;
-        color: #323132;
+        color: #323132; 
         -webkit-font-smoothing: antialiased;
         -moz-osx-font-smoothing: grayscale;
     }
@@ -138,14 +140,14 @@
         font-weight: 700;
     }
     .frame-cont {
-        border: #e0e0e0;
+        border: #f8f8f8;
         border-style: solid;
-        /* padding: 20px; */
         margin: 20px auto;
         border-width: medium;
         border-radius: 10px;
         width: 100%;
         height: 100%;
+        background: #44555a;
     }
     .embed-code__success-container {
         position:relative

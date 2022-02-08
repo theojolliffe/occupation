@@ -2,8 +2,9 @@
     import {page} from '$app/stores'
 
     import LineChart from '/src/charts/components/line/index.svelte';
+    import BarChart from '/src/charts/components/bar/index.svelte';
 
-    $: occplace = $page.params.occplace
+    $: occplace = $page.params.occplaceintro
     $: placecode = occplace.split("-")[1]
     $: occcode = occplace.split("-")[0]
 
@@ -43,14 +44,31 @@
  'S92000003': 'Scotland',
  'N92000002': 'Northern Ireland'}
 
+    var sum
+    $: if (data) {
+        sum = Object.values(data[ind_lu[occcode]]).map(d => d[2021]).reduce((partialSum, a) => partialSum + a, 0)
+        console.log('sum', sum)
+    }
+
+
 </script>
 
-<div>
-    In the {reg_lu[placecode]} {data[ind_lu[occcode]][placecode][2021]} people work as {occcode}. This is {Math.round(100*(data[ind_lu[occcode]][placecode][2021]/data["Total"][placecode][2021]))}% of the regional workforce.
-</div>
+{#if sum}
+    <div>
+        <h2>
+            {ind_lu[occcode]}
+        </h2>
+        <p>
+            Across England and Wales, {sum} people work in this industry.
+        </p>
+        <p>
+            This accounts for the 
+        </p>
+    </div>
+{/if}
 
 <div class="line-cont">
-<LineChart />
+<BarChart />
 </div>
 <style>
     @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
