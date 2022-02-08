@@ -6,7 +6,7 @@
 </script>
 
 <div id="select">
-	<select bind:value={selected} on:change="{() => window.location.href = selected}">
+	<select bind:value={selected} on:change="{() => window.location.href = selected.split(" ")[0].replace(",", "")}">
 		<option value="" disabled selected>Select an occupation</option>
 		{#each options as option}
 			<option value={option}>
