@@ -53,7 +53,7 @@
 </div>
 
 <div class="line-cont">
-<!-- <LineChart /> -->
+<LineChart />
 </div>
 <style>
     div {
