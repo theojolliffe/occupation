@@ -50,7 +50,7 @@
         sum = Object.values(data[ind_lu[occcode]]).map(d => d[2021]).reduce((partialSum, a) => partialSum + a, 0)
         // totsum = Object.values(data).map(d => Object.values(d).map(d => d[2021])).flat().reduce((partialSum, a) => partialSum + a, 0)
         totsum = Object.values(data['Total']).map(d => d[2021]).reduce((partialSum, a) => partialSum + a, 0)
-        console.log('data', totsum)
+        console.log('data', data)
     }
 
 
@@ -65,13 +65,13 @@
             Across England and Wales, {sum} people work in this industry.
         </p>
         <p>
-            This accounts for about 1 in { Math.round (1 / (sum/totsum) / 10) * 10 } working people, making it the second largest industry, in terms of size of workforce.
+            This accounts for about 1 in { Math.round (1 / (sum/totsum) / 10) * 10 } working people, or about { Math.round (100* (sum/totsum)) }% of the workforce. It's the second largest industry, in terms of people employed.
         </p>
     </div>
 {/if}
 
-<div class="line-cont">
-<BarChart />
+<div class="bar-cont">
+<BarChart bind:data2={data}/>
 </div>
 <style>
     @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
@@ -79,8 +79,11 @@
         font-family: 'Open Sans';
         color: white
     }
-    .line-cont {
-        height: 200px;
-        margin: 20px;
+    .bar-cont {
+        height: 50px;
+        margin: 0px;
+    }
+    h2 {
+        margin: 0;
     }
 </style>

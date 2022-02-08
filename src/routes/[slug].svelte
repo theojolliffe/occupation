@@ -47,12 +47,15 @@
         <div class="frame-cont">
             <div class='inner-frame'>
                 {#if (code=='Overall')}
-                    <iframe src={domain + "/iframeoverall/" + slug + "-" + code} title="preview"/>
+                    <iframe style='height: 292px' src={domain + "/iframeoverall/" + slug + "-" + code} title="preview"/>
                 {:else}
                     <iframe src={domain + "/iframe/" + slug + "-" + code} title="preview"/>
                 {/if}
                 <br>
-                <button on:click={toggle(code)}>Embed</button>
+                <div style='margin-bottom: 50px;'>
+                    <button style='background-color: #ff7ac7' on:click={toggle(code)}>Share</button>
+                    <button on:click={toggle(code)}>Embed</button>
+                </div>
 
                 {#if expanded==code}
                     <div class="details__body">
@@ -122,15 +125,15 @@
     }
 
     iframe {
-        width: 100%;
-        margin: 10px;
+        width: 96%;
+        margin: 2%;
         height: 300px;
         border: none;
         /* height: 100% */
     }
     button {
-        background: #0f8243;
-        color: white;
+        background: rgb(139, 206, 246);
+        color: #44555a;
         padding: 5px 15px;
         border: none;
         margin-left: 40px;

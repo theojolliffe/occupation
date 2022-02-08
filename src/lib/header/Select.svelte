@@ -3,14 +3,40 @@
 	export let options;
 	export let selected;
 
+	// console.log('window.location.href', window.location.href.split("/").at(-1))
+
+	var ind_lu = {'Agriculture': 'Agriculture, forestry and fishing',
+ 'Mining': 'Mining and quarrying',
+ 'Manufacturing': 'Manufacturing',
+ 'Electricity': 'Electricity, gas, steam and air conditioning supply',
+ 'Water': 'Water supply; sewerage, waste management and remediation activities',
+ 'Construction': 'Construction',
+ 'Wholesale': 'Wholesale and retail trade; repair of motor vehicles and motor cycles',
+ 'Transport': 'Transport and storage',
+ 'Accommodation': 'Accommodation and food service activities',
+ 'Information': 'Information and communication',
+ 'Financial': 'Financial and insurance activities',
+ 'Real': 'Real estate activities',
+ 'Professional': 'Professional, scientific and technical activities',
+ 'Administrative': 'Administrative and support service activities',
+ 'Public': 'Public administration and defence; compulsory social security',
+ 'Education': 'Education',
+ 'Human': 'Human health and social work activities',
+ 'Total': 'Total'}
+
+ import { page } from '$app/stores';
+ console.log($page.url.pathname.replace("/", ""))
+
+	selected = ind_lu[$page.url.pathname.replace("/", "")]
+
 </script>
 
 <div id="select">
 	<select bind:value={selected} on:change="{() => window.location.href = selected.split(" ")[0].replace(",", "")}">
-		<option value="" disabled selected>Select an industry</option>
+		<!-- <option value="" disabled selected>Select an industry</option> -->
 		{#each options as option}
 			<option value={option}>
-				{option.split(";")[0]}
+				{option.split(" ")[0].replace(",", "")}
 			</option>
 		{/each}
 	</select>

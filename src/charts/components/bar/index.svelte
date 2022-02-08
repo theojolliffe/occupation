@@ -11,6 +11,9 @@
   // This example loads csv data as json using @rollup/plugin-dsv
   import data from './_data/fruitOrdinal.csv';
 
+  export let data2;
+  $: console.log('bar data', data2)
+
   const xKey = [0, 1];
   const yKey = 'year';
   const zKey = 'key';
@@ -40,14 +43,15 @@
     expand to fill it.
   */
   .chart-container {
+    margin: 40px 0;
     width: 100%;
-    height: 25%;
+    height: 100%;
   }
 </style>
 
 <div class="chart-container">
   <LayerCake
-    padding={{ top: 0, bottom: 20, left: 30 }}
+    padding={{ top: 0, bottom: 20, left: 10, right: 10 }}
     x={xKey}
     y={d => d.data[yKey]}
     z={zKey}
@@ -64,9 +68,6 @@
         baseline={true}
         snapTicks={true}
         formatTick={formatTickX}
-      />
-      <AxisY
-        gridlines={false}
       />
       <BarStacked/>
     </Svg>
