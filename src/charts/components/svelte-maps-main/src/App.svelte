@@ -1,6 +1,6 @@
 <script>
 	// Components for working with Mapbox layers
-	import { getData, getColor, getTopo } from "./js/utils.js";
+	import { getData, getColor, getTopo, sortCSV } from "./js/utils.js";
 	import Map from './Map.svelte';
 	import MapSource from './MapSource.svelte';
 	import MapLayer from './MapLayer.svelte';
@@ -50,29 +50,56 @@
 	// $: console.log('geojson', geojson)
 
 	import * as someDATA from '/src/charts/components/svelte-maps-main/dist/data/pcon10-bounds.json';
-	console.log('someDATA', someDATA.default)
+	// console.log('someDATA', someDATA.default)
 	$: geojson2 = feature(someDATA.default, 'PCONreg');
 	$: console.log('geojson2', geojson2)
 
-	
-	// Get data for geojson maps
-	getData(pconData)
-	.then(res => {
-		let vals = res.map(d => d.salary).sort((a, b) => a - b);
-		let len = vals.length;
-		let breaks = [
-			vals[0],
-			vals[Math.floor(len * 0.2)],
-			vals[Math.floor(len * 0.4)],
-			vals[Math.floor(len * 0.6)],
-			vals[Math.floor(len * 0.8)],
-			vals[len - 1]
-		];
-		res.forEach(d => {
-			d.color = getColor(d.salary, breaks, colors.seq5);
-		});
-		data.pcon = res;
+
+	import * as pconnnDATA from '/src/charts/components/svelte-maps-main/dist/data/salary-pcon10.csv';
+	console.log('pconnnDATA', pconnnDATA.default)
+
+	let res = pconnnDATA.default
+
+	let vals = res.map(d => d.salary).sort((a, b) => a - b);
+	let len = vals.length;
+	let breaks = [
+		vals[0],
+		vals[Math.floor(len * 0.2)],
+		vals[Math.floor(len * 0.4)],
+		vals[Math.floor(len * 0.6)],
+		vals[Math.floor(len * 0.8)],
+		vals[len - 1]
+	];
+	res.forEach(d => {
+		d.color = getColor(d.salary, breaks, colors.seq5);
 	});
+	data.pcon = res;
+	console.log('data', data)
+
+	// // Get data for geojson maps
+	// getData(pconData)
+	// .then(res => {
+	// 	let vals = res.map(d => d.salary).sort((a, b) => a - b);
+	// 	let len = vals.length;
+	// 	let breaks = [
+	// 		vals[0],
+	// 		vals[Math.floor(len * 0.2)],
+	// 		vals[Math.floor(len * 0.4)],
+	// 		vals[Math.floor(len * 0.6)],
+	// 		vals[Math.floor(len * 0.8)],
+	// 		vals[len - 1]
+	// 	];
+	// 	res.forEach(d => {
+	// 		d.color = getColor(d.salary, breaks, colors.seq5);
+	// 	});
+	// 	data.pcon = res;
+	// });
+
+	import * as lsoaaaDATA from '/src/charts/components/svelte-maps-main/dist/data/imd-lsoa11.csv';
+	// console.log('lsoaaaDATA', lsoaaaDATA.default)
+
+	data.lsoa = sortCSV(lsoaaaDATA.default);
+	console.log('data', data)
 
 	// // Get data for vector tiles map
 	// getData(lsoaData)
