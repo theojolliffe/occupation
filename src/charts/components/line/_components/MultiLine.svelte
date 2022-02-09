@@ -22,7 +22,7 @@
     <path
       class='path-line'
       d='{path(group.values)}'
-      stroke="{(group.region == regHi)?'#ff00cc':'#ffe4b860'}"
+      stroke="{(group.region == regHi)?'#ff00cc':'#ffe4b870'}"
     ></path>
   {/each}
 </g>
