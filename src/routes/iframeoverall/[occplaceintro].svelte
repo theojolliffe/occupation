@@ -74,7 +74,7 @@
 <BarChart bind:data2={data}/>
 </div>
 <style>
-    body {
+    :global(body) {
         background-color: #233640;
         max-width: 640px;
     }
