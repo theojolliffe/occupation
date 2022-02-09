@@ -4,6 +4,7 @@
  -->
 <script>
   import { getContext } from 'svelte';
+  export let regHi;
 
   const { data, xGet, yGet, zGet } = getContext('LayerCake');
 
@@ -21,7 +22,7 @@
     <path
       class='path-line'
       d='{path(group.values)}'
-      stroke="{$zGet(group)}"
+      stroke="{(group.region == regHi)?'#ff00cc':'#ffe4b860'}"
     ></path>
   {/each}
 </g>

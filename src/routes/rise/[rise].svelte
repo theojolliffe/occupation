@@ -2,15 +2,19 @@
     import {page} from '$app/stores'
 
     import LineChart from '/src/charts/components/line/index.svelte';
-    import BarChart from '/src/charts/components/bar/index.svelte';
 
-    $: occplace = $page.params.occplaceintro
-    $: placecode = occplace.split("-")[1]
-    $: occcode = occplace.split("-")[0]
+    $: ind = $page.params.rise
+    $: console.log('rise', ind)
+
+    $: console.log('$page.url.pathname', $page.url.pathname)
+
+    // $: placecode = occplace.split("-")[1]
+    // $: occcode = occplace.split("-")[0]
 
     import * as someDATA from '/src/data/industry_fake.json';
 
     $: data = someDATA.default
+    // $: console.log('rise data', data[ind_lu[ind]])
 
     var ind_lu = {'Agriculture': 'Agriculture, forestry and fishing',
  'Mining': 'Mining and quarrying',
@@ -44,51 +48,46 @@
  'S92000003': 'Scotland',
  'N92000002': 'Northern Ireland'}
 
-    var sum
-    var totsum
-    $: if (data) {
-        sum = Object.values(data[ind_lu[occcode]]).map(d => d[2021]).reduce((partialSum, a) => partialSum + a, 0)
-        // totsum = Object.values(data).map(d => Object.values(d).map(d => d[2021])).flat().reduce((partialSum, a) => partialSum + a, 0)
-        totsum = Object.values(data['Total']).map(d => d[2021]).reduce((partialSum, a) => partialSum + a, 0)
-    }
+ var dataNew = []
+ let topChange
+ $: if (data) {
+    let industry = data[ind_lu[ind]]
+    Object.keys(industry).forEach(d => {
+        dataNew.push({'code': d, 2011: industry[d][2011], 2021: industry[d][2021], 'diff': (industry[d][2021]-industry[d][2011])})
+    })
+    dataNew = dataNew.sort(function(a, b){return b['diff'] - a['diff']})
+    topChange = dataNew[0]
+    console.log('ooddmSTAT', topChange)
+ }
+
 
 </script>
 
-<div class='iframe-ex-style'>
-{#if sum}
-    <div>
-        <h2>
-            {ind_lu[occcode]}
-        </h2>
-        <p>
-            Across England and Wales, {sum} people work in this industry.
-        </p>
-        <p>
-            This accounts for about 1 in { Math.round (1 / (sum/totsum) / 10) * 10 } working people, or about { Math.round (100* (sum/totsum)) }% of the workforce. It's the second largest industry, in terms of people employed.
-        </p>
-    </div>
+{#if topChange}
+<div style='margin-bottom: 35px;'>
+    <h2>
+        {ind} industry booms in the {reg_lu[topChange['code']]}
+    </h2>
+    <p>
+        In the ten years leading up to Census 2021, the {reg_lu[topChange['code']]} saw the greatest rise in the proportion of employed people working in {ind_lu[ind]} (from 3% to 6%).
+    </p>
+    <p>
+        The industry has been growing steadily here since 1981, when 2% of the regional workforce were employed in this industry.
+    </p>
+</div>
 {/if}
 
-<div class="bar-cont">
-<BarChart bind:data2={data}/>
-</div>
+<div class="line-cont">
+<LineChart industry={data[ind_lu[ind]]} type={'rise'} regHi={topChange['code']}/>
 </div>
 <style>
-
     @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
-    .iframe-ex-style {
-        background-color: #233640;
-        max-width: 640px;
-    }
     div {
         font-family: 'Open Sans';
         color: white
     }
-    .bar-cont {
-        height: 50px;
-        margin: 0px;
-    }
-    h2 {
-        margin: 0;
+    .line-cont {
+        height: 200px;
+        margin: 20px;
     }
 </style>

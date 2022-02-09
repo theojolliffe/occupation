@@ -24,9 +24,8 @@
  'Human': 'Human health and social work activities',
  'Total': 'Total'}
 
- import { page } from '$app/stores';
- console.log($page.url.pathname.replace("/", ""))
-
+	import { page } from '$app/stores';
+	console.log($page.url.pathname.replace("/", ""))
 	selected = ind_lu[$page.url.pathname.replace("/", "")]
 
 </script>

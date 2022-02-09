@@ -6,7 +6,6 @@
     import { dev } from '$app/env';
 
     $: ray = ['E12000008', 'E12000009', 'E12000002']
-    $: a = 'Overall'
 
     $: slug = $page.params.slug
 
@@ -40,6 +39,8 @@
     const handleFailedCopy = () => {
         alert('failed to copy :(');
     }
+    $: a = 'Overall'
+    $: b = 'rise'
 
 </script>
 
@@ -77,7 +78,39 @@
         </div>
     </div>
 
-    {#each ray as code}
+    <div class="frame-cont">
+        <div class='inner-frame'>
+            <iframe style='height: 485px;' src={domain + "/"+b+"/" + slug} title="preview"/>
+            <br>
+            <div style='margin-bottom: 50px;'>
+                <button style='background-color: #ff7ac7' on:click={toggle(b)}>Share</button>
+                <button on:click={toggle(b)}>Embed</button>
+            </div>
+
+            {#if expanded==b}
+                <div class="details__body">
+                    <label class="embed-code__label" for="embed-365-4262-b9c0-c0b2c28341bb">Embed this interactive</label>
+                    <input 
+                    class="embed-code__code width-md--31" 
+                    value={`<iframe width="100%" src="`+ domain + "/iframeoverall/" + slug + "-" + b + `"></iframe>`} 
+                    id="embed-365-4262-b9c0-c0b2c28341bb" 
+                    name="embed-365-4262-b9c0-c0b2c28341bb" 
+                    readonly="">
+                    <span class="embed-code__success-container">
+                        <CopyToClipboard text={`<iframe width="100%" src="`+ domain + "/iframe/" + "-" + b + `"></iframe>`} on:copy={handleSuccessfullyCopied} on:fail={handleFailedCopy} let:copy>
+                            <button on:click={copy}>Copy</button>
+                        </CopyToClipboard>
+                        <span class="embed-code__success-message" id={copied?"succ-mess":"no-mess"}>
+                            Successfully copied
+                        </span>
+                    </span>
+                </div>
+            {/if}
+        </div>
+    </div>
+
+
+    <!-- {#each ray as code}
         <div class="frame-cont">
             <div class='inner-frame'>
                 {#if (code=='Overall')}
@@ -106,13 +139,13 @@
                             </CopyToClipboard>
                             <span class="embed-code__success-message" id={copied?"succ-mess":"no-mess"}>
                                 Successfully copied
-                            </span>
-                        </span>
+                            </span> -->
+                        <!-- </span>
                     </div>
                 {/if}
             </div>
         </div>
-    {/each}
+    {/each} -->
 
 
     <div class="frame-cont">

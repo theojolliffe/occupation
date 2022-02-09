@@ -13,15 +13,53 @@
   // This example loads csv data as json using @rollup/plugin-dsv
   import data from './_data/fruit.csv';
 
+  export let type;
+  export let industry;
+  export let regHi;
+  console.log('reHi', regHi)
+  console.log('tpye', type)
+  console.log('infudsrt', industry)
+  
+  $: console.log('data', data)
+
+  var data2 = []
+  Object.keys(industry['E12000001']).forEach(d => {
+    let ob = {'year': d}
+    Object.keys(industry).forEach(e => {
+      ob[e] = industry[e][d]
+    })
+    data2.push(ob)
+  })
+
+
+  $: console.log('data2', data2)
+
+  var datalong2 = []
+  Object.keys(industry).forEach(d => {
+    let ob = {'region': d}
+    let ray = []
+    Object.keys(industry[d]).forEach(e => {
+      ray.push({value: industry[d][e], year: +e})
+    })
+    ob['values'] = ray
+    datalong2.push(ob)
+  })
+
+
+  $: console.log('datalong2', datalong2)
+
+
+  // data = data2
+
   /* --------------------------------------------
    * Set what is our x key to separate it from the other series
    */
-  const xKey = 'month';
+  const xKey = 'year';
   const yKey = 'value';
-  const zKey = 'fruit';
+  const zKey = 'region';
 
   const seriesNames = Object.keys(data[0]).filter(d => d !== xKey);
-  const seriesColors = ['#ffe4b8', '#ffb3c0', '#ff7ac7', '#ff00cc'];
+  const seriesColors = ['#ff00cc', '#ffe4b8', '#ffb3c0', '#ffe4b8', '#ffb3c0', '#ffe4b8', '#ffb3c0', '#ffe4b8', '#ffb3c0']; // '#ff7ac7', 
 
   const parseDate = timeParse('%Y-%m-%d');
 
@@ -42,6 +80,8 @@
       })
     };
   });
+
+  $: console.log('dataLong', dataLong)
 
   /* --------------------------------------------
    * Make a flat array of the `values` of our nested series
@@ -79,8 +119,8 @@
     zScale={scaleOrdinal()}
     zDomain={seriesNames}
     zRange={seriesColors}
-    flatData={flatten(dataLong)}
-    data={dataLong}
+    flatData={flatten(datalong2)}
+    data={datalong2}
   >
     <Svg>
       <AxisX
@@ -94,14 +134,18 @@
         ticks={4}
         formatTick={formatTickY}
       />
-      <MultiLine/>
+      <MultiLine
+        {regHi}
+      />
     </Svg>
 
     <Html>
-      <Labels/>
+      <Labels 
+        {regHi}
+      />
       <SharedTooltip
         formatTitle={formatTickX}
-        dataset={data}
+        dataset={data2}
       />
     </Html>
   </LayerCake>
