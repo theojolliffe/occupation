@@ -5,7 +5,7 @@
     import {page} from '$app/stores'
     import { dev } from '$app/env';
 
-    $: ray = ['Overall', 'E12000008', 'E12000009', 'E12000002']
+    $: ray = ['E12000008', 'E12000009', 'E12000002']
 
     $: slug = $page.params.slug
 
@@ -44,6 +44,37 @@
 <div class='article-cont'>
 <Header />
 {#if slug}
+    <div class="frame-cont">
+        <div class='inner-frame'>
+            <iframe style='height: 292px' src={domain + "/iframeoverall/" + slug + "-" + 'Overall'} title="preview"/>
+            <br>
+            <div style='margin-bottom: 50px;'>
+                <button style='background-color: #ff7ac7' on:click={toggle('Overall')}>Share</button>
+                <button on:click={toggle('Overall')}>Embed</button>
+            </div>
+
+            {#if expanded=='Overall'}
+                <div class="details__body">
+                    <label class="embed-code__label" for="embed-365-4262-b9c0-c0b2c28341bb">Embed this interactive</label>
+                    <input 
+                    class="embed-code__code width-md--31" 
+                    value={(code=='Overall')?`<iframe width="100%" src="`+ domain + "/iframeoverall/" + slug + "-" + code +`"></iframe>`:`<iframe width="100%" src="`+ domain + "/iframe/" + slug + "-" + code +`"></iframe>`} 
+                    id="embed-365-4262-b9c0-c0b2c28341bb" 
+                    name="embed-365-4262-b9c0-c0b2c28341bb" 
+                    readonly="">
+                    <span class="embed-code__success-container">
+                        <CopyToClipboard text={`<iframe width="100%" src="`+ domain + "/iframe/" + slug + "-" + code +`"></iframe>`} on:copy={handleSuccessfullyCopied} on:fail={handleFailedCopy} let:copy>
+                            <button on:click={copy}>Copy</button>
+                        </CopyToClipboard>
+                        <span class="embed-code__success-message" id={copied?"succ-mess":"no-mess"}>
+                            Successfully copied
+                        </span>
+                    </span>
+                </div>
+            {/if}
+        </div>
+    </div>
+
     {#each ray as code}
         <div class="frame-cont">
             <div class='inner-frame'>
