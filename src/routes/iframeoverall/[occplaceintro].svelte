@@ -57,7 +57,7 @@
 </script>
 
 {#if sum}
-    <div>
+    <div class='iframe-ex-style'>
         <h2>
             {ind_lu[occcode]}
         </h2>
@@ -74,12 +74,12 @@
 <BarChart bind:data2={data}/>
 </div>
 <style>
-    :global(body) {
+
+    @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+    .iframe-ex-style {
         background-color: #233640;
         max-width: 640px;
     }
-
-    @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
     div {
         font-family: 'Open Sans';
         color: white
