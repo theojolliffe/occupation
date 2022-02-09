@@ -1,6 +1,6 @@
 <script>
 	// Components for working with Mapbox layers
-	import { getData, getColor, getTopo, sortCSV } from "./js/utils.js";
+	import { getColor, sortCSV } from "./js/utils.js";
 	import Map from './Map.svelte';
 	import MapSource from './MapSource.svelte';
 	import MapLayer from './MapLayer.svelte';
