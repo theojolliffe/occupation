@@ -6,26 +6,18 @@ const colors = {
   div10: ['#67001f','#b2182b','#d6604d','#f4a582','#fddbc7','#d1e5f0','#92c5de','#4393c3','#2166ac','#053061']	
 };
 
-export function sortCSV(data) {
+export async function getTopo(url, layer) {
+  let response = await fetch(url);
+  let json = await response.json();
+  let geojson = await feature(json, layer);
+  return geojson;
+}
 
-	let res2 = data
+export async function sortCSV(data) {
 
-  console.log('res2', res2)
-	// let vals2 = res2.map(d => d.salary).sort((a, b) => a - b);
-	// let len2 = vals2.length;
-	// let breaks2 = [
-	// 	vals2[0],
-	// 	vals2[Math.floor(len2 * 0.2)],
-	// 	vals2[Math.floor(len2 * 0.4)],
-	// 	vals2[Math.floor(len2 * 0.6)],
-	// 	vals2[Math.floor(len2 * 0.8)],
-	// 	vals2[len2 - 1]
-	// ];
-	// res2.forEach(d => {
-	// 	d.color = getColor(d.salary, breaks2, colors.seq5);
-	// });
-  
-  return res2;
+	let res = await data.default
+
+  return res
 }
 
 export function getColor(value, breaks, colors) {

@@ -51,8 +51,8 @@
 
 	import * as someDATA from '/src/charts/components/svelte-maps-main/dist/data/pcon10-bounds.json';
 	// console.log('someDATA', someDATA.default)
-	$: geojson2 = feature(someDATA.default, 'PCONreg');
-	$: console.log('geojson2', geojson2)
+	$: geojson = feature(someDATA.default, 'PCONreg');
+	$: console.log('geojson2', geojson)
 
 
 	import * as pconnnDATA from '/src/charts/components/svelte-maps-main/dist/data/salary-pcon10.csv';
@@ -98,7 +98,15 @@
 	import * as lsoaaaDATA from '/src/charts/components/svelte-maps-main/dist/data/imd-lsoa11.csv';
 	// console.log('lsoaaaDATA', lsoaaaDATA.default)
 
-	data.lsoa = sortCSV(lsoaaaDATA);
+	data.lsoa = 
+	sortCSV(lsoaaaDATA)
+	.then(res => {
+		res.forEach(d => {
+			d.color = colors.div10[+d.income_decile - 1];
+			d.AREACD = d.lsoa11cd;
+		});
+		data.lsoa = res;
+	});
 	console.log('data', data)
 
 	// // Get data for vector tiles map
@@ -114,16 +122,16 @@
 
 <div>
 	<div class="map">
-		{#if geojson && data.pcon}
-			<!-- <Map id="map3"  location={{bounds: bounds.uk}} bind:map={map3} controls={true}> -->
-				<!-- <MapSource
+		{#if geojson && data.pcon && data.lsoa}
+			<Map id="map3"  location={{bounds: bounds.uk}} bind:map={map3} controls={true}>
+				<MapSource
 					id="pcon"
 					type="geojson"
 					data={geojson}
 					promoteId={pconBounds.code}
 					maxzoom={13}
-				> -->
-					<!-- <MapLayer
+				>
+					<MapLayer
 						id="pcon-fill"
 						data={data.pcon}
 						type="fill"
@@ -140,8 +148,8 @@
 						}}
 					>
 						<MapTooltip content={`Code: ${hovered}`}/>
-					</MapLayer> -->
-					<!-- <MapLayer
+					</MapLayer>
+					<MapLayer
 						id="pcon-line"
 						type="line"
 						paint={{
@@ -155,9 +163,9 @@
 								1
 							]
 						}}
-					/> -->
-				<!-- </MapSource> -->
-			<!-- </Map> -->
+					/>
+				</MapSource>
+			</Map>
 		{/if}
 	</div>
 </div>
