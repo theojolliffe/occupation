@@ -7,21 +7,23 @@ const colors = {
 };
 
 export async function sortCSV(data) {
+
 	let res2 = data
 
-	let vals2 = res2.map(d => d.salary).sort((a, b) => a - b);
-	let len2 = vals2.length;
-	let breaks2 = [
-		vals2[0],
-		vals2[Math.floor(len2 * 0.2)],
-		vals2[Math.floor(len2 * 0.4)],
-		vals2[Math.floor(len2 * 0.6)],
-		vals2[Math.floor(len2 * 0.8)],
-		vals2[len2 - 1]
-	];
-	res2.forEach(d => {
-		d.color = getColor(d.salary, breaks2, colors.seq5);
-	});
+  console.log('res2', res2)
+	// let vals2 = res2.map(d => d.salary).sort((a, b) => a - b);
+	// let len2 = vals2.length;
+	// let breaks2 = [
+	// 	vals2[0],
+	// 	vals2[Math.floor(len2 * 0.2)],
+	// 	vals2[Math.floor(len2 * 0.4)],
+	// 	vals2[Math.floor(len2 * 0.6)],
+	// 	vals2[Math.floor(len2 * 0.8)],
+	// 	vals2[len2 - 1]
+	// ];
+	// res2.forEach(d => {
+	// 	d.color = getColor(d.salary, breaks2, colors.seq5);
+	// });
   
   return res2;
 }

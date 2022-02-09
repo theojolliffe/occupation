@@ -98,7 +98,7 @@
 	import * as lsoaaaDATA from '/src/charts/components/svelte-maps-main/dist/data/imd-lsoa11.csv';
 	// console.log('lsoaaaDATA', lsoaaaDATA.default)
 
-	data.lsoa = sortCSV(lsoaaaDATA.default);
+	data.lsoa = sortCSV(lsoaaaDATA);
 	console.log('data', data)
 
 	// // Get data for vector tiles map
