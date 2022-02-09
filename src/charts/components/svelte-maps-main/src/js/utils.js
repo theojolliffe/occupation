@@ -10,7 +10,9 @@ export async function getData(url) {
 
 export async function getTopo(url, layer) {
   let response = await fetch(url);
+  console.log('response', response)
   let json = await response.json();
+  console.log('json', json)
   let geojson = await feature(json, layer);
   return geojson;
 }

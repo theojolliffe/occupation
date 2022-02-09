@@ -5,6 +5,7 @@
 	import MapSource from './MapSource.svelte';
 	import MapLayer from './MapLayer.svelte';
 	import MapTooltip from './MapTooltip.svelte';
+	import { feature } from 'topojson-client';
 	
 	const colors = {
 		seq5: ['rgb(234, 236, 177)', 'rgb(169, 216, 145)', 'rgb(0, 167, 186)', 'rgb(0, 78, 166)', 'rgb(0, 13, 84)'],
@@ -42,9 +43,17 @@
 	let center = {};
 	let hovered, selected;
 
-	// Get geometry for geojson maps
-	getTopo(pconBounds.url, pconBounds.layer)
-	.then(res => geojson = res);
+	// // Get geometry for geojson maps
+	// getTopo(pconBounds.url, pconBounds.layer)
+	// .then(res => geojson = res);
+
+	// $: console.log('geojson', geojson)
+
+	import * as someDATA from '/src/charts/components/svelte-maps-main/dist/data/pcon10-bounds.json';
+	console.log('someDATA', someDATA.default)
+	$: geojson2 = feature(someDATA.default, 'PCONreg');
+	$: console.log('geojson2', geojson2)
+
 	
 	// // Get data for geojson maps
 	// getData(pconData)
