@@ -6,23 +6,6 @@ const colors = {
   div10: ['#67001f','#b2182b','#d6604d','#f4a582','#fddbc7','#d1e5f0','#92c5de','#4393c3','#2166ac','#053061']	
 };
 
-export async function getData(url) {
-  let response = await fetch(url);
-  let string = await response.text();
-	let data = await csvParse(string, autoType);
-  console.log('data', data)
-  return data;
-}
-
-export async function getTopo(url, layer) {
-  let response = await fetch(url);
-  console.log('response', response)
-  let json = await response.json();
-  console.log('json', json)
-  let geojson = await feature(json, layer);
-  return geojson;
-}
-
 export async function sortCSV(data) {
 	let res2 = data
 
