@@ -78,50 +78,51 @@
 
 <div>
 	<div class="map">
-	  {#if geojson && data.pcon}
-	  <Map id="map3"  location={{bounds: bounds.uk}} bind:map={map3} controls={true}>
-		  <MapSource
-			  id="pcon"
-			  type="geojson"
-			  data={geojson}
-			  promoteId={pconBounds.code}
-			  maxzoom={13}>
-			  <MapLayer
-				  id="pcon-fill"
-				  data={data.pcon}
-				  type="fill"
-				  hover={true}
-				  bind:hovered
-				  select={true}
-				  bind:selected
-				  paint={{
-					  'fill-color': ['case',
-						  ['!=', ['feature-state', 'color'], null], ['feature-state', 'color'],
-						  'rgba(255, 255, 255, 0)'
-					  ],
-					  'fill-opacity': 0.7
-				  }}
-			>
-				  <MapTooltip content={`Code: ${hovered}`}/>
-				</MapLayer>
-			  <MapLayer
-				  id="pcon-line"
-				  type="line"
-				  paint={{
-					  'line-color': ['case',
-						  ['==', ['feature-state', 'selected'], true], 'black',
-						  ['==', ['feature-state', 'hovered'], true], 'orange',
-						  'rgba(255, 255, 255, 0)'
-					  ],
-					  'line-width': ['case',
-						  ['==', ['feature-state', 'selected'], true], 2,
-						  1
-					  ]
-				  }}
-				/>
-		  </MapSource>
-	  </Map>
-	  {/if}
+		{#if geojson && data.pcon}
+			<Map id="map3"  location={{bounds: bounds.uk}} bind:map={map3} controls={true}>
+				<MapSource
+					id="pcon"
+					type="geojson"
+					data={geojson}
+					promoteId={pconBounds.code}
+					maxzoom={13}
+				>
+					<MapLayer
+						id="pcon-fill"
+						data={data.pcon}
+						type="fill"
+						hover={true}
+						bind:hovered
+						select={true}
+						bind:selected
+						paint={{
+							'fill-color': ['case',
+								['!=', ['feature-state', 'color'], null], ['feature-state', 'color'],
+								'rgba(255, 255, 255, 0)'
+							],
+							'fill-opacity': 0.7
+						}}
+					>
+						<!-- <MapTooltip content={`Code: ${hovered}`}/> -->
+					</MapLayer>
+					<MapLayer
+						id="pcon-line"
+						type="line"
+						paint={{
+							'line-color': ['case',
+								['==', ['feature-state', 'selected'], true], 'black',
+								['==', ['feature-state', 'hovered'], true], 'orange',
+								'rgba(255, 255, 255, 0)'
+							],
+							'line-width': ['case',
+								['==', ['feature-state', 'selected'], true], 2,
+								1
+							]
+						}}
+					/>
+				</MapSource>
+			</Map>
+		{/if}
 	</div>
 </div>
 
