@@ -42,38 +42,38 @@
 	let center = {};
 	let hovered, selected;
 
-	// // Get geometry for geojson maps
-	// getTopo(pconBounds.url, pconBounds.layer)
-	// .then(res => geojson = res);
+	// Get geometry for geojson maps
+	getTopo(pconBounds.url, pconBounds.layer)
+	.then(res => geojson = res);
 	
-	// Get data for geojson maps
-	getData(pconData)
-	.then(res => {
-		let vals = res.map(d => d.salary).sort((a, b) => a - b);
-		let len = vals.length;
-		let breaks = [
-			vals[0],
-			vals[Math.floor(len * 0.2)],
-			vals[Math.floor(len * 0.4)],
-			vals[Math.floor(len * 0.6)],
-			vals[Math.floor(len * 0.8)],
-			vals[len - 1]
-		];
-		res.forEach(d => {
-			d.color = getColor(d.salary, breaks, colors.seq5);
-		});
-		data.pcon = res;
-	});
+	// // Get data for geojson maps
+	// getData(pconData)
+	// .then(res => {
+	// 	let vals = res.map(d => d.salary).sort((a, b) => a - b);
+	// 	let len = vals.length;
+	// 	let breaks = [
+	// 		vals[0],
+	// 		vals[Math.floor(len * 0.2)],
+	// 		vals[Math.floor(len * 0.4)],
+	// 		vals[Math.floor(len * 0.6)],
+	// 		vals[Math.floor(len * 0.8)],
+	// 		vals[len - 1]
+	// 	];
+	// 	res.forEach(d => {
+	// 		d.color = getColor(d.salary, breaks, colors.seq5);
+	// 	});
+	// 	data.pcon = res;
+	// });
 
-	// Get data for vector tiles map
-	getData(lsoaData)
-	.then(res => {
-		res.forEach(d => {
-			d.color = colors.div10[+d.income_decile - 1];
-			d.AREACD = d.lsoa11cd;
-		});
-		data.lsoa = res;
-	});
+	// // Get data for vector tiles map
+	// getData(lsoaData)
+	// .then(res => {
+	// 	res.forEach(d => {
+	// 		d.color = colors.div10[+d.income_decile - 1];
+	// 		d.AREACD = d.lsoa11cd;
+	// 	});
+	// 	data.lsoa = res;
+	// });
 </script>
 
 <div>
