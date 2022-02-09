@@ -92,12 +92,12 @@
                     <label class="embed-code__label" for="embed-365-4262-b9c0-c0b2c28341bb">Embed this interactive</label>
                     <input 
                     class="embed-code__code width-md--31" 
-                    value={`<iframe width="100%" src="`+ domain + "/iframeoverall/" + slug + "-" + b + `"></iframe>`} 
+                    value={`<iframe width="100%" src="`+ domain + "/"+b+"/" + slug + `"></iframe>`} 
                     id="embed-365-4262-b9c0-c0b2c28341bb" 
                     name="embed-365-4262-b9c0-c0b2c28341bb" 
                     readonly="">
                     <span class="embed-code__success-container">
-                        <CopyToClipboard text={`<iframe width="100%" src="`+ domain + "/iframe/" + "-" + b + `"></iframe>`} on:copy={handleSuccessfullyCopied} on:fail={handleFailedCopy} let:copy>
+                        <CopyToClipboard text={`<iframe width="100%" src="`+ domain + "/"+b+"/" + slug + `"></iframe>`} on:copy={handleSuccessfullyCopied} on:fail={handleFailedCopy} let:copy>
                             <button on:click={copy}>Copy</button>
                         </CopyToClipboard>
                         <span class="embed-code__success-message" id={copied?"succ-mess":"no-mess"}>
