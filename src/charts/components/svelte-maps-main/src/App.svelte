@@ -87,7 +87,7 @@
 					promoteId={pconBounds.code}
 					maxzoom={13}
 				>
-					<MapLayer
+					<!-- <MapLayer
 						id="pcon-fill"
 						data={data.pcon}
 						type="fill"
@@ -103,9 +103,9 @@
 							'fill-opacity': 0.7
 						}}
 					>
-						<!-- <MapTooltip content={`Code: ${hovered}`}/> -->
-					</MapLayer>
-					<MapLayer
+						<MapTooltip content={`Code: ${hovered}`}/>
+					</MapLayer> -->
+					<!-- <MapLayer
 						id="pcon-line"
 						type="line"
 						paint={{
@@ -119,7 +119,7 @@
 								1
 							]
 						}}
-					/>
+					/> -->
 				</MapSource>
 			</Map>
 		{/if}
