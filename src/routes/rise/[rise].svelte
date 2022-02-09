@@ -63,6 +63,7 @@
 
 </script>
 
+<div class='iframe-ex-style'>
 {#if topChange}
 <div style='margin-bottom: 35px;'>
     <h2>
@@ -80,8 +81,13 @@
 <div class="line-cont">
 <LineChart industry={data[ind_lu[ind]]} type={'rise'} regHi={topChange['code']}/>
 </div>
+</div>
 <style>
     @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+    .iframe-ex-style {
+        background-color: #233640;
+        max-width: 640px;
+    }
     div {
         font-family: 'Open Sans';
         color: white
