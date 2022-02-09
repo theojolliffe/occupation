@@ -79,7 +79,7 @@
 <div>
 	<div class="map">
 		{#if geojson && data.pcon}
-			<Map id="map3"  location={{bounds: bounds.uk}} bind:map={map3} controls={true}>
+			<!-- <Map id="map3"  location={{bounds: bounds.uk}} bind:map={map3} controls={true}> -->
 				<!-- <MapSource
 					id="pcon"
 					type="geojson"
@@ -121,7 +121,7 @@
 						}}
 					/> -->
 				<!-- </MapSource> -->
-			</Map>
+			<!-- </Map> -->
 		{/if}
 	</div>
 </div>
