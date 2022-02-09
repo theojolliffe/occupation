@@ -12,7 +12,6 @@
   import data from './_data/fruitOrdinal.csv';
 
   export let data2;
-  $: console.log('bar data', data2)
 
   const xKey = [0, 1];
   const yKey = 'year';

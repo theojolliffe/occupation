@@ -52,11 +52,9 @@
 	import * as someDATA from '/src/charts/components/svelte-maps-main/dist/data/pcon10-bounds.json';
 	// console.log('someDATA', someDATA.default)
 	$: geojson = feature(someDATA.default, 'PCONreg');
-	$: console.log('geojson2', geojson)
 
 
 	import * as pconnnDATA from '/src/charts/components/svelte-maps-main/dist/data/salary-pcon10.csv';
-	console.log('pconnnDATA', pconnnDATA.default)
 
 	let res = pconnnDATA.default
 
@@ -74,7 +72,6 @@
 		d.color = getColor(d.salary, breaks, colors.seq5);
 	});
 	data.pcon = res;
-	console.log('data', data)
 
 	// // Get data for geojson maps
 	// getData(pconData)
@@ -107,7 +104,6 @@
 		});
 		data.lsoa = res;
 	});
-	console.log('data', data)
 
 	// // Get data for vector tiles map
 	// getData(lsoaData)

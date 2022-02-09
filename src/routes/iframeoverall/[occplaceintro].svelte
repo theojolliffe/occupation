@@ -50,14 +50,14 @@
         sum = Object.values(data[ind_lu[occcode]]).map(d => d[2021]).reduce((partialSum, a) => partialSum + a, 0)
         // totsum = Object.values(data).map(d => Object.values(d).map(d => d[2021])).flat().reduce((partialSum, a) => partialSum + a, 0)
         totsum = Object.values(data['Total']).map(d => d[2021]).reduce((partialSum, a) => partialSum + a, 0)
-        console.log('data', data)
     }
 
 
 </script>
 
+<div class='iframe-ex-style'>
 {#if sum}
-    <div class='iframe-ex-style'>
+    <div>
         <h2>
             {ind_lu[occcode]}
         </h2>
@@ -72,6 +72,7 @@
 
 <div class="bar-cont">
 <BarChart bind:data2={data}/>
+</div>
 </div>
 <style>
 

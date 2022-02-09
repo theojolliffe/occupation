@@ -6,6 +6,7 @@
     import { dev } from '$app/env';
 
     $: ray = ['E12000008', 'E12000009', 'E12000002']
+    $: a = 'Overall'
 
     $: slug = $page.params.slug
 
@@ -21,6 +22,7 @@
     let expanded = null;
     function toggle(code) {
         copied = false
+        console.log('wtf')
         if (expanded==code) {
             expanded = null;
         } else {
@@ -46,24 +48,24 @@
 {#if slug}
     <div class="frame-cont">
         <div class='inner-frame'>
-            <iframe style='height: 292px' src={domain + "/iframeoverall/" + slug + "-" + 'Overall'} title="preview"/>
+            <iframe style='height: 292px' src={domain + "/iframeoverall/" + slug + "-" + a} title="preview"/>
             <br>
             <div style='margin-bottom: 50px;'>
-                <button style='background-color: #ff7ac7' on:click={toggle('Overall')}>Share</button>
-                <button on:click={toggle('Overall')}>Embed</button>
+                <button style='background-color: #ff7ac7' on:click={toggle(a)}>Share</button>
+                <button on:click={toggle(a)}>Embed</button>
             </div>
 
-            {#if expanded=='Overall'}
+            {#if expanded==a}
                 <div class="details__body">
                     <label class="embed-code__label" for="embed-365-4262-b9c0-c0b2c28341bb">Embed this interactive</label>
                     <input 
                     class="embed-code__code width-md--31" 
-                    value={(code=='Overall')?`<iframe width="100%" src="`+ domain + "/iframeoverall/" + slug + "-" + code +`"></iframe>`:`<iframe width="100%" src="`+ domain + "/iframe/" + slug + "-" + code +`"></iframe>`} 
+                    value={`<iframe width="100%" src="`+ domain + "/iframeoverall/" + slug + "-Overall" + `"></iframe>`} 
                     id="embed-365-4262-b9c0-c0b2c28341bb" 
                     name="embed-365-4262-b9c0-c0b2c28341bb" 
                     readonly="">
                     <span class="embed-code__success-container">
-                        <CopyToClipboard text={`<iframe width="100%" src="`+ domain + "/iframe/" + slug + "-" + code +`"></iframe>`} on:copy={handleSuccessfullyCopied} on:fail={handleFailedCopy} let:copy>
+                        <CopyToClipboard text={`<iframe width="100%" src="`+ domain + "/iframe/" + "-Overall" + `"></iframe>`} on:copy={handleSuccessfullyCopied} on:fail={handleFailedCopy} let:copy>
                             <button on:click={copy}>Copy</button>
                         </CopyToClipboard>
                         <span class="embed-code__success-message" id={copied?"succ-mess":"no-mess"}>
