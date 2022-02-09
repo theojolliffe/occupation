@@ -80,13 +80,13 @@
 	<div class="map">
 		{#if geojson && data.pcon}
 			<Map id="map3"  location={{bounds: bounds.uk}} bind:map={map3} controls={true}>
-				<MapSource
+				<!-- <MapSource
 					id="pcon"
 					type="geojson"
 					data={geojson}
 					promoteId={pconBounds.code}
 					maxzoom={13}
-				>
+				> -->
 					<!-- <MapLayer
 						id="pcon-fill"
 						data={data.pcon}
@@ -120,7 +120,7 @@
 							]
 						}}
 					/> -->
-				</MapSource>
+				<!-- </MapSource> -->
 			</Map>
 		{/if}
 	</div>
